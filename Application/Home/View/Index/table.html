@@ -33,13 +33,13 @@
 </div>
 
 <div class="row" ng-if="flag">
-   
-    <div class="col-sm-6 col-md-3" data-ng-repeat="x in categorie track by $index" ng-class="{true:' active', false: ''}[$index==selectedItem]">
+   <!--ng-class="{true:' deldata', false: ''}[$index==selectedItem]"-->
+    <div class="col-sm-6 col-md-3" data-ng-repeat="x in categorie track by $index"  >
         <div class="thumbnail">
             <img ng-src="__PUBLIC__/{{x.prdimgsrc}}">
             <div class="caption">
                 <h3 class="redcol">{{x.prdprice}}</h3>
-                <p class="uheight">{{x.prdname1}}{{x.prdfont1}}{{x.prdi}}{{x.prdfont2}}{{x.prdname2}}</p>
+                <p class="uheight">{{x.prdname1}}<i>{{x.prdfont1}}</i>{{x.prdi}}<i>{{x.prdfont2}}</i>{{x.prdname2}}</p>
                 <p>{{x.prdpingjia}}</p>
                 <p>{{x.prddianpu}}</p>
                 <p>

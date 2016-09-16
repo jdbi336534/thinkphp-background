@@ -48,6 +48,7 @@
 }
 #show_div {
 	overflow: hidden;
+	height:100%;
 	
 	
 }
@@ -143,4 +144,7 @@ h3.redcol{
 .row {
     margin-right: -10px;
     margin-left: -10px;
+}
+p.uheight i{
+	color:red;
 }

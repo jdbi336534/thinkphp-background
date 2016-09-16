@@ -142,24 +142,95 @@ class IndexController extends Controller {
 		$array = array();
 		//选择表
 		$M = M('listtable');
-		
+		$hmany=$M->count();
 		//查询数据
 		//$sql['id'] = '1';
-		for($i=1;$i<3;$i++){
-			$map['id']  = $i;
-		$que = $M -> where($map) -> find();
+		//for($i=0;$i<$hmany;$i++){
+			$map['id']  =array('lt',$hmany+1);
+			
+		$que = $M -> where($map) -> select();
 		if (!$que) {
 			//$this -> error('帐号不存在或被禁用');
 		}else{
-			//echo json_encode($que);
-			array_push($array, $que);
-			
+			echo json_encode($que);
+			//array_push($array, $que);
+			//var_dump($que);
 			}
-		}
-		 echo json_encode($array);
+		//}
+		 
+		
 		
 
 	}
+	//从数据库删除数据
+	public function deldata($id=null) {
+		if (IS_POST) { 
+
+    $listtable = M("listtable");
+	$map['id']  = $id;
+    // 删除 id=$id 的数据记录
+    $result = $listtable->where($map)->delete();
+
+    if($result !== false){
+        echo "ok";
+    }else{
+        echo -1;
+    }
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
