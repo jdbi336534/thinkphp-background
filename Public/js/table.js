@@ -12,7 +12,7 @@ app.controller("backCtrl", function($scope, $http,ngDialog) {
 	}
 	$scope.deldata=function(x){
 		//console.log($scope.categorie);
-//		var numid=$scope.categorie[x].id;
+		var numid=$scope.categorie[x].id;
 //		console.log(numid);
 		
 		var flag=false;

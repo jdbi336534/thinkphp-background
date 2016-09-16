@@ -387,9 +387,9 @@
 		<!--footer开始-->
 		<div class="footer">
 			<div class="layout">
-				<div class="foot-banner" data-uspm="131">
-					<a data-uspm="no" class="foot-banner-post" href="#" target="_blank" title="中国邮政">中国邮政</a>
-					<a data-uspm="no" class="foot-banner-tom" href="#" target="_blank" title="TOM">TOM</a>
+				<div class="foot-banner">
+					<a class="foot-banner-post" href="#" target="_blank" title="中国邮政">中国邮政</a>
+					<a class="foot-banner-tom" href="#" target="_blank" title="TOM">TOM</a>
 					<a class="foot-banner-commitment" href="#" target="_blank" title="100%正品承诺">100%正品承诺</a>
 					<a class="foot-banner-free" href="#" target="_blank" title="覆盖城乡 安全速达">覆盖城乡 安全速达</a>
 				</div>
@@ -399,11 +399,11 @@
 						<li class="i1">
 							<h4>购物指南</h4>
 							<p data-uspm="141">
-								<a target="_blank" rel="nofollow" href="#">购物流程</a>
-								<a target="_blank" rel="nofollow" href="#">使用优惠券</a>
-								<a target="_blank" rel="nofollow" href="#">积分规则</a>
-								<a target="_blank" rel="nofollow" href="#">如何找回密码</a>
-								<a target="_blank" rel="nofollow" href="#">订单多包裹配送</a>
+								<a target="_blank" href="#">购物流程</a>
+								<a target="_blank" href="#">使用优惠券</a>
+								<a target="_blank" href="#">积分规则</a>
+								<a target="_blank" href="#">如何找回密码</a>
+								<a target="_blank" href="#">订单多包裹配送</a>
 								<a target="_blank" href="#">热搜关键词</a>
 								<a target="_blank" href="#">在线客服（邮乐通）</a>
 							</p>
@@ -411,55 +411,55 @@
 						<li class="i2">
 							<h4>支付帮助</h4>
 							<p data-uspm="142">
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/90/30.html">邮乐卡支付</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/86/26.html">网上银行支付</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/91/31.html">邮储快捷支付</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/81/21.html">邮乐快捷支付协议</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/67/7.html">发票说明</a>
+								<a target="_blank" href="#">邮乐卡支付</a>
+								<a target="_blank" href="#">网上银行支付</a>
+								<a target="_blank" href="#">邮储快捷支付</a>
+								<a target="_blank" href="#">邮乐快捷支付协议</a>
+								<a target="_blank" href="#">发票说明</a>
 							</p>
 						</li>
 						<li class="i3">
 							<h4>配送方式</h4>
 							<p data-uspm="143">
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/74/14.html">海外购物配送</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/65/5.html">签收拒收规则</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/64/4.html">配送时间/范围/运费</a>
+								<a target="_blank" href="#">海外购物配送</a>
+								<a target="_blank" href="#">签收拒收规则</a>
+								<a target="_blank" href="#">配送时间/范围/运费</a>
 							</p>
 						</li>
 						<li class="i4">
 							<h4>售后服务</h4>
 							<p data-uspm="144">
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/66/20.html">退换货规则</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/87/27.html">退款说明</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/68/8.html">联系客服</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/102/42.html">退换货流程</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/103/43.html">退换货运费补偿标准</a>
-								<a target="_blank" rel="nofollow" href="http://my.ule.com/returnorders/login.jsp">线下购物订单服务</a>
-								<a target="_blank" rel="nofollow" href="http://my.ule.com/myShoppingOrderWeb/buyerOrderView.do">纠纷申诉</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/105/45.html">纠纷申诉处理规则说明</a>
+								<a target="_blank" href="#">退换货规则</a>
+								<a target="_blank" href="#">退款说明</a>
+								<a target="_blank" href="#">联系客服</a>
+								<a target="_blank" href="#">退换货流程</a>
+								<a target="_blank" href="#">退换货运费补偿标准</a>
+								<a target="_blank" href="#">线下购物订单服务</a>
+								<a target="_blank" href="#">纠纷申诉</a>
+								<a target="_blank" href="#">纠纷申诉处理规则说明</a>
 							</p>
 						</li>
 						<li class="i5">
 							<h4>特色服务</h4>
 							<p data-uspm="145">
-								<a target="_blank" href="http://yzg.ule.com">邮掌柜</a>
-								<a target="_blank" href="http://www.ule.com/tg/">大客户团购</a>
-								<a target="_blank" href="http://help.ule.com/helpcenter/75/15.html">邮乐海外站</a>
-								<a target="_blank" href="http://help.ule.com/helpcenter/85/25.html">手机充值</a>
+								<a target="_blank" href="#">邮掌柜</a>
+								<a target="_blank" href="#">大客户团购</a>
+								<a target="_blank" href="#">邮乐海外站</a>
+								<a target="_blank" href="#">手机充值</a>
 							</p>
 						</li>
 						<li class="i6">
 							<h4>关于邮乐</h4>
 							<p data-uspm="146">
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/70/10.html">邮乐简介</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/72/12.html">邮乐招商</a>
-								<a target="_blank" rel="nofollow" href="http://merchant2.ule.tom.com/merchantJoinIn/merApply/login.do?method=entry">商家入驻</a>
-								<a target="_blank" href="http://merchant.ule.com/fxMerchantJoin/merApply/login.do">批销商家入驻</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/73/13.html">诚聘英才</a>
-								<a target="_blank" href="http://search.ule.com/link.html">友情链接</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/62/16.html">用户协议</a>
-								<a target="_blank" rel="nofollow" href="http://help.ule.com/helpcenter/63/3.html">隐私权保护</a>
-								<a target="_blank" href="http://www.ule.com/zone/sitemap.html">网站地图</a>
+								<a target="_blank" href="#">邮乐简介</a>
+								<a target="_blank" href="#">邮乐招商</a>
+								<a target="_blank" href="#">商家入驻</a>
+								<a target="_blank" href="#">批销商家入驻</a>
+								<a target="_blank" href="#">诚聘英才</a>
+								<a target="_blank" href="#">友情链接</a>
+								<a target="_blank" href="#">用户协议</a>
+								<a target="_blank" href="#">隐私权保护</a>
+								<a target="_blank" href="#">网站地图</a>
 							</p>
 						</li>
 					</ul>
@@ -476,20 +476,21 @@
 
 				<div class="foot-copyright">沪ICP备:13037728 号 Copyright 2009-2015, 版权所有上海邮乐网络技术有限公司 ULE.COM</div>
 
-				<div class="foot-iconlink clearfix" data-uspm="151">
-					<a data-uspm="no" href="#" target="_blank" title="中国邮政"><b>中国邮政</b></a>
-					<a data-uspm="no" href="#" target="_blank" title="TOM"><b>TOM</b></a>
-					<a data-uspm="no" rel="nofollow" href="#" target="_blank" title="可信网站身份验证"><b>可信网站</b></a>
-					<a data-uspm="no" href="#" target="_blank" title="EMS"><b>EMS</b></a>
-					<a data-uspm="no" href="#" target="_blank" title="中国邮政储蓄银行"><b>中国邮政储蓄银行</b></a>
-					<a data-uspm="no" rel="nofollow" href="#" target="_blank"><b>不良信息举报中心</b></a>
-					<a data-uspm="no" rel="nofollow" href="#" target="_blank"><b>上海网警网络110</b></a>
-					<a data-uspm="no" rel="nofollow" href="#" target="_blank"><b>上海工商</b></a>
-					<a data-uspm="no" rel="nofollow" href="#" target="_blank"><b>诚信网站</b></a>
+				<div class="foot-iconlink clearfix">
+					<a href="#" target="_blank" title="中国邮政"><b>中国邮政</b></a>
+					<a href="#" target="_blank" title="TOM"><b>TOM</b></a>
+					<a href="#" target="_blank" title="可信网站身份验证"><b>可信网站</b></a>
+					<a href="#" target="_blank" title="EMS"><b>EMS</b></a>
+					<a href="#" target="_blank" title="中国邮政储蓄银行"><b>中国邮政储蓄银行</b></a>
+					<a href="#" target="_blank"><b>不良信息举报中心</b></a>
+					<a href="#" target="_blank"><b>上海网警网络110</b></a>
+					<a href="#" target="_blank"><b>上海工商</b></a>
+					<a href="#" target="_blank"><b>诚信网站</b></a>
 				</div>
 
 			</div>
 		</div>
+
 
 	</body>
 

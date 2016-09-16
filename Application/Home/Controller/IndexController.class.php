@@ -37,7 +37,7 @@ class IndexController extends Controller {
 
 	public function opencontrol() {
 		if ($_SESSION['name'] != null) {
-			$this -> display(fistpage);
+			$this -> display(index);
 		} else {
 			//$this->error('你还没有登陆，请登录！');
 			$this -> success('你还没有登陆，请登录！', 'openlogin', 3);
