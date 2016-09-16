@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+#top_nav {
+	height: 43px;
+	background: #212121;
+	position: relative;
+}
+#top_nav img {
+	width: 360px;
+	height: 43px;
+}
+#top_nav a {
+	padding-left: 20px;
+}
+.nav-tabs>li>a {
+	border-radius: 0;
+	color: #6d6767
+}
+.nav-tabs {
+	border-bottom: none;
+}
+.shangping {
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	border-bottom: 1px solid #7d7d7d;
+	line-height: 40px;
+	background: rgb(224, 34, 34);
+	position: relative;
+}
+.shangping span.selected {
+	display: block;
+	width: 8px;
+	height: 25px;
+	background-image: url("../img/sidebar-menu-arrow.png");
+	float: right;
+	position: absolute;
+	right: 0px;
+	top: 8px;
+}
+#left_nav {
+	width: 200px;
+	min-height: 1000px;
+	background: #3d3d3d;
+	float: left;
+}
+#show_div {
+	overflow: hidden;
+	
+	
+}
+.panel-group .panel+.panel {
+	margin-top: 0px;
+}
+.panel-group .panel {
+	border-radius: 0;
+}
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+	border-top: none;
+}
+.panel-heading {
+	width: 200px;
+	height: 40px;
+	padding: 0;
+}
+.panel-title>a {
+	height: 40px;
+	width: 100%;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+}
+#list-group {
+	padding-left: 0;
+}
+#list-group li a {
+	padding: 10px 15px;
+	text-decoration: none;
+	font-size: 14px;
+	display: block;
+	color: #bdbdbd;
+	padding-left: 44px;
+	/*height:38px;
+	display:block;
+	text-align:center;
+	line-height: 38px;*/
+}
+#list-group li a:hover {
+	background: #878787;
+}
+.panel-title>a:hover {
+	background: #333333;
+}
+a>.arrleft {
+	display: block;
+	float: right;
+	margin: 15px 15px 0 0;
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-right: 10px solid #8a7e68;
+}
+a>.arrdown {
+	display: block;
+	float: right;
+	margin: 15px 15px 0 0;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid #8a7e68;
+}
+
+/*table*/
+
+.title {
+	padding: 8px 15px;
+	margin: 0 0 20px;
+	list-style: none;
+	padding-left: 8px;
+	margin-bottom: 25px;
+	background-color: #eee;
+	border-radius: 4px;
+}
+.title a {
+	color: #999;
+}
+
+p.uheight{
+	height:80px;
+	overflow: hidden;
+}
+h3.redcol{
+	color:red;
+}
+.page-header h1{
+	text-align:center;
+}
+.row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
