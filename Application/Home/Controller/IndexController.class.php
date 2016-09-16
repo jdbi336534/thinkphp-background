@@ -229,6 +229,21 @@ class IndexController extends Controller {
 
 }
 
+//从数据库读取轮播图
+	public function readlunbo(){
+	if(IS_GET){
+		$lunbo = M("lunbo");
+		
+             $result = $lunbo->select();
+            if ($result!==false){
+                echo json_encode($result);
+                //var_dump($result);
+                
+            }else {
+                echo -1;
+            }
+	}
+}
 
 
 

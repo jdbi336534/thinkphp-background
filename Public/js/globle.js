@@ -265,8 +265,14 @@ function scrollfun(){
 				 	}
 				});
 }
-
-
+lunboimgsrc();
+//轮播图请求
+function lunboimgsrc(){
+	$.getJSON('/thinkphp3.2.3/index.php/Home/Index/readlunbo',function(data){
+		console.log(data);
+		$('.firstscreen>.banner_img>.item-list>a').attr("src",).src=data[0].imgsrc;
+	});
+}
 
 
 

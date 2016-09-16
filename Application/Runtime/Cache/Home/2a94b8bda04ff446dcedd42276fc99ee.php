@@ -12,12 +12,14 @@
 		<!--[if IE]>
 		<script src="/thinkphp3.2.3/Public/js/jquery-1.10.1.min.js"></script>
 	    <![endif]-->
+	    <!--<script src="/thinkphp3.2.3/Public/js/angular.min.js"></script>
+	    <script type="text/javascript" src="/thinkphp3.2.3/Public/js/index.js"></script>-->
 		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/jQueryRotate.2.2.js"></script>
 		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/globle.js"></script>
 		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/model1.js"></script>
 	</head>
 
-	<body class="w1280">
+	<body class="w1280" >
 		<div class="header">
 			<div class="head-top">
 				<div class="layout">
@@ -443,30 +445,34 @@
 		<div class="firstscreen">
 			<div class="mod-topslide">
 				<ul class="slide-items banner_img">
-					<li class="item-list">
-						<a href="#"><img src="img/lunbo/1.jpg" /></a>
+					<li class="item-list" >
+						<a href="#"><img src="" /></a>
 					</li>
-					<li>
-						<a href="#"><img src="img/lunbo/2.jpg" /></a>
+					<li class="item-list" >
+						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[1].imgsrc}}" /></a>
 					</li>
-					<li>
-						<a href="#"><img src="img/lunbo/3.jpg" /></a>
+					<li class="item-list" >
+						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[2].imgsrc}}" /></a>
 					</li>
-					<li>
-						<a href="#"><img src="img/lunbo/4.jpg" /></a>
+					<li class="item-list" >
+						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[3].imgsrc}}" /></a>
 					</li>
-					<li>
-						<a href="#"><img src="img/lunbo/5.jpg" /></a>
+					<li class="item-list" >
+						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[4].imgsrc}}" /></a>
 					</li>
-					<li>
-						<a href="#"><img src="img/lunbo/6.jpg" /></a>
+					<li class="item-list" >
+						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[5].imgsrc}}" /></a>
 					</li>
-					<li>
-						<a href="#"><img src="img/lunbo/7.jpg" /></a>
+					<li class="item-list" >
+						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[6].imgsrc}}" /></a>
 					</li>
-					<li>
-						<a href="#"><img src="img/lunbo/8.jpg" /></a>
+					<li class="item-list" >
+						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[7].imgsrc}}" /></a>
 					</li>
+					<li class="item-list" >
+						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[0].imgsrc}}" /></a>
+					</li>
+					
 				</ul>
 				<div class="slide-bottom"></div>
 				<div class="slide-index imgnum">
@@ -4640,22 +4646,22 @@
 						<ul class="slide-items">
 							<li>
 								<a href="#">
-									<img src="img/topline3/0813bb60149cbbcb_-1x-1.jpg" />
+									<img ng-src="/thinkphp3.2.3/Public/{{item[1].imgsrc}}" />
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="img/topline3/74cf46e48a380272_-1x-1.jpg" />
+									<img ng-src="/thinkphp3.2.3/Public/{{item[9].imgsrc}}" />
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="img/topline3/9bcf27988949a09d_-1x-1.jpg" />
+									<img ng-src="/thinkphp3.2.3/Public/{{item[10].imgsrc}}" />
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="img/topline3/eaa3e4630a95d71f_-1x-1.jpg" />
+									<img ng-src="/thinkphp3.2.3/Public/{{item[11].imgsrc}}" />
 								</a>
 							</li>
 						</ul>
