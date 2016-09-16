@@ -131,20 +131,11 @@ a>.arrdown {
 	color: #999;
 }
 
-p.uheight{
-	height:80px;
-	overflow: hidden;
-}
-h3.redcol{
+
+td i{
 	color:red;
 }
-.page-header h1{
-	text-align:center;
-}
-.row {
-    margin-right: -10px;
-    margin-left: -10px;
-}
-p.uheight i{
-	color:red;
+#additem{
+	float:right;
+	margin-right:36px;
 }

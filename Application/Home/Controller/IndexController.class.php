@@ -137,98 +137,97 @@ class IndexController extends Controller {
 
 	}
 	
-	public function readlist() {
+	
 
-		$array = array();
-		//选择表
-		$M = M('listtable');
-		$hmany=$M->count();
-		//查询数据
-		//$sql['id'] = '1';
-		//for($i=0;$i<$hmany;$i++){
-			$map['id']  =array('lt',$hmany+1);
-			
-		$que = $M -> where($map) -> select();
-		if (!$que) {
-			//$this -> error('帐号不存在或被禁用');
-		}else{
-			echo json_encode($que);
-			//array_push($array, $que);
-			//var_dump($que);
-			}
-		//}
-		 
-		
-		
+ public function readlist() {
+        $array = array();
+        //选择表
+        $M = M('listtable');
+        $hmany = $M -> count();
+        //echo $hmany;
+        //查询数据
+        //$sql['id'] = '1';
+        //for($i=0;$i<$hmany;$i++){
+        //$map['id'] = array('lt', $hmany + 1);
 
+
+        //$que = $M -> where($map) -> select();
+        $que = $M -> limit('0,'+$hmany) -> select();
+        if (!$que) {
+            //$this -> error('帐号不存在或被禁用');
+        } else {
+            echo json_encode($que);
+            //array_push($array, $que);
+            //var_dump($que);
+        }
+
+}
+
+//从数据库删除数据
+	public function deldata($id=null){
+	if(IS_POST){
+		$listtable = M("listtable");
+		$map['id'] = $id;
+		// 删除 id=$id 的数据记录
+             $result = $listtable->where($map)->delete();
+            if ($result!==false){
+                echo "ok";
+            }else {
+                echo -1;
+            }
 	}
-	//从数据库删除数据
-	public function deldata($id=null) {
-		if (IS_POST) { 
-
-    $listtable = M("listtable");
-	$map['id']  = $id;
-    // 删除 id=$id 的数据记录
-    $result = $listtable->where($map)->delete();
-
-    if($result !== false){
-        echo "ok";
-    }else{
-        echo -1;
+}
+    
+    //从数据库添加数据
+    public function database($prdprice = null, $prdname1 = null, $prdname2 = null,$prdi=null, $prdfont1 = null, $prdfont2 = null, $prdpingjia = null, $prddianpu = null, $prdimgsrc = null) {
+        if (IS_POST) {
+        	
+            $listtable = M("listtable");
+            $data['prdprice'] = $prdprice;
+            $data['prdname1'] = $prdname1;
+            $data['prdname2'] = $prdname2;
+            $data['prdfont1'] = $prdfont1;
+            $data['prdi'] = $prdi;
+            $data['prdfont2'] = $prdfont2;
+            $data['prdpingjia'] = $prdpingjia;
+            $data['prddianpu'] = $prddianpu;
+            $data['prdimgsrc'] = $prdimgsrc;
+            $insert_id = $listtable -> add($data);
+             if ($insert_id !== false) {
+                echo '数据添加成功！';
+            } else {
+                echo '数据添加失败！';
+            }
+        }
     }
-		}
-	}
+//从数据库修改数据
+    public function xiudatabase($id=null,$prdprice = null, $prdname1 = null, $prdname2 = null,$prdi=null, $prdfont1 = null, $prdfont2 = null, $prdpingjia = null, $prddianpu = null, $prdimgsrc = null) {
+        if (IS_POST) {
+            $listtable = M("listtable");
+             // 需要更新的数据
+            $data['prdprice'] = $prdprice;
+            $data['prdname1'] = $prdname1;
+            $data['prdname2'] = $prdname2;
+            $data['prdfont1'] = $prdfont1;
+            $data['prdi'] = $prdi;
+            $data['prdfont2'] = $prdfont2;
+            $data['prdpingjia'] = $prdpingjia;
+            $data['prddianpu'] = $prddianpu;
+            $data['prdimgsrc'] = $prdimgsrc;
+           
+           
+            // 更新的条件
+            $condition['id'] = $id;
+            $result = $listtable -> where($condition) -> save($data);
+            //或者：$resul t= $Dao->where($condition)->data($data)->save();
+            if ($result !== false) {
+                echo '数据更新成功！';
+            } else {
+                echo '数据更新失败！';
+            }
+        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
