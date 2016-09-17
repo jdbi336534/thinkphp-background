@@ -4,12 +4,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="/thinkphp3.2.3/Public/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="/thinkphp3.2.3/Public/css/ngDialog.min.css" />
 		<link rel="stylesheet" href="/thinkphp3.2.3/Public/css/reset.css" />
 		<link rel="stylesheet" href="/thinkphp3.2.3/Public/css/background.css" />
 		<script src="/thinkphp3.2.3/Public/js/jquery.min.js"></script>
 		<script src="/thinkphp3.2.3/Public/js/angular.min.js"></script>
-		<script src="/thinkphp3.2.3/Public/js/ngDialog.min.js"></script>
 		<script src="/thinkphp3.2.3/Public/js/table.js"></script>
 		<script src="/thinkphp3.2.3/Public/js/bootstrap.min.js"></script>
 		<script src="/thinkphp3.2.3/Public/js/background.js"></script>

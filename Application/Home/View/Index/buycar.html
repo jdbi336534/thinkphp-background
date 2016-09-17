@@ -28,7 +28,7 @@
 						</li>
 					</ul>
 					<ul class="fr userinfo">
-						<li class="welcome ">您好，欢迎来到邮乐网！</li>
+						<li class="welcome "><a href="#">{$Think.session.name}</a> 您好，欢迎来到邮乐网！</li>
 						<li class="login">
 							<a href="login.html">[请登录] </a>
 							<a href="register.html" target="_blank">[免费注册]</a>
@@ -380,7 +380,7 @@
 										<a data-uspm="img-1" class="prod-img" href="#" target="_blank">
 											<img ng-src="__PUBLIC__/{{pro.prdimgsrc}}" alt="">
 										</a>
-										<a class="prod-name" href="#" target="_blank" title="创悦 炫酷静音液压踏步机 CY-9098">
+										<a class="prod-name" href="#" target="_blank" title="{{pro.prdname1}}{{pro.prdfont1}}{{pro.prdi}}{{pro.prdfont2}}{{pro.prdname2}}">
 											{{pro.prdname1}}{{pro.prdfont1}}{{pro.prdi}}{{pro.prdfont2}}{{pro.prdname2}}
 											</a>
 										
@@ -395,7 +395,6 @@
 											<p class="prod-color">颜色： <em>lvs</em></p>
 											<p class="prod-spec">规格： <em>55*30cm</em></p>
 										</div>
-										
 									</div>
 								</li>
 								<li class="item-price">
@@ -447,7 +446,7 @@
 				<div class="cart-total">
 					<dl class="prod-count">
 						<dt>商品数量：</dt>
-						<dd><strong>0</strong>件</dd>
+						<dd><strong>{{len}}</strong>件</dd>
 					</dl>
 					<dl class="prod-price">
 						<dt>价格合计：</dt>

@@ -10,10 +10,14 @@
 		<link rel="stylesheet" href="/thinkphp3.2.3/Public/css/list.css" />
 		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/jquery-3.1.0.min.js"></script>
 		<!--[if IE]>
-		<script src="js/jquery-1.10.1.min.js"></script>
+		<script src="/thinkphp3.2.3/Public/js/jquery-1.10.1.min.js"></script>
 	    <![endif]-->
+	    <script type="text/javascript" src="/thinkphp3.2.3/Public/js/jQueryRotate.2.2.js"></script>
+		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/globle.js"></script>
 		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/angular.min.js"></script>
 		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/list.js"></script>
+		<script type="text/javascript">
+		</script>
 	</head>
 
 	<body class="w1280">
@@ -26,7 +30,7 @@
 						</li>
 					</ul>
 					<ul class="fr userinfo">
-						<li class="welcome ">您好，欢迎来到邮乐网！</li>
+						<li class="welcome "><a href="#"><?php echo (session('name')); ?></a> 您好，欢迎来到邮乐网！</li>
 						<li class="login">
 							<a href="/thinkphp3.2.3/index.php/Home/Index/openlogin">[请登录] </a>
 							<a href="<?php echo U('Index/openurl');?>" target="_blank">[免费注册]</a>
@@ -966,18 +970,18 @@
 								<div class="mc">
 									<ul class="clearfix" data-x="ab">
 										<!--左边的广告-->
-										<li onclick="searchlog(1,10489521572,0,81)">
+										<li >
 											<div class="p-img">
 												<a target="_blank" href="https://ccc-x.jd.com/dsp/nc?ext=Y2xpY2sueC5qZC5jb20vSmRDbGljay8_eHVpZD01MjAwNyZ4c2l0ZWlkPTExNTcwNTU1XzI5MSZ0bz1odHRwOi8vaXRlbS5qZC5jb20vMTA0ODk1MjE1NzIuaHRtbA&amp;log=UFI9YMu5GY0PBkHfCcXw2J1Fg94vurDI5ilorMpwzkf2aVGR0XrHdvIaSPW3UI0FHNGrnyd4ec9HbR50XvBweu9Zhk7QrGTlnHxcPyFwvbbvtVJoYba0tU3oBh7jSdUQsbxGQeftreDrJ0WLSRckOWMRngKD7hOhOGTKwvRsONu3vgFTdmEvrw65Tvf4B6htSd0QpxSoSMfpbvooPfbPk6Ih7FUpmkihMY-pZlnL-EoqDJSnAzMmNWDoqNUTsRCVkC7VyHo9VRzCyHD27eqQjkIQ3YRHuBjyBEjzevJs7aqiwHT36lJbNJcS0Bp7K-X9AcdSLO5cx7jYY8BCBZRI64iYTHAGnTs423QecmPXuWffwjkbBD7iWmXbpoh-mduY7bQ0oBs4sqhuTb6UOliZ3QM34iE_0MXO5JeYh5tC3gQ&amp;v=404">
-													<img width="160" height="160" data-img="1" src="//img12.360buyimg.com/n2/jfs/t3154/159/678636613/34263/ab987688/57bd5682Nc9f29188.jpg" class="err-product">
-													<img src="https://im-x.jd.com/dsp/np?log=UFI9YMu5GY0PBkHfCcXw2J1Fg94vurDI5ilorMpwzkf2aVGR0XrHdvIaSPW3UI0FHNGrnyd4ec9HbR50XvBweu9Zhk7QrGTlnHxcPyFwvbbvtVJoYba0tU3oBh7jSdUQsbxGQeftreDrJ0WLSRckOWMRngKD7hOhOGTKwvRsONu3vgFTdmEvrw65Tvf4B6htheLw7h+RThr8+nsh5tq+4LmqVa9XVMr1ac4PAi6YeLXHOWYyoWXHh1ZPRDYSXCa82pMoZZPDnsCRBenn8/b1KFMcgpM856Md+ioHSv9gs5a8pdQAUNdvUveWwIbDei2f9fCptlhKdCzUazIiqdmRYRUcS2Q7k8MzQScxu/H+VsMW9xzr+SWk00sm/wM0CPFsgaCn//Fs6gmoqZrvca0lXs1wxBBJ7W0t/bHc2iHFF3k=&amp;v=404" class="J_adv_tuiguang_exposal" style="display:none;">
+													<img width="160" height="160" data-img="1" src="/thinkphp3.2.3/Public/img/list/gg1.jpg" class="err-product">
+													
 												</a>
 											</div>
 											<div class="p-price">
 												<strong class="J_10489521572" data-adv="1" data-done="1"><em>￥</em><i>38.00</i></strong>
 											</div>
 											<div class="p-name">
-												<a target="_blank" href="https://ccc-x.jd.com/dsp/nc?ext=Y2xpY2sueC5qZC5jb20vSmRDbGljay8_eHVpZD01MjAwNyZ4c2l0ZWlkPTExNTcwNTU1XzI5MSZ0bz1odHRwOi8vaXRlbS5qZC5jb20vMTA0ODk1MjE1NzIuaHRtbA&amp;log=UFI9YMu5GY0PBkHfCcXw2J1Fg94vurDI5ilorMpwzkf2aVGR0XrHdvIaSPW3UI0FHNGrnyd4ec9HbR50XvBweu9Zhk7QrGTlnHxcPyFwvbbvtVJoYba0tU3oBh7jSdUQsbxGQeftreDrJ0WLSRckOWMRngKD7hOhOGTKwvRsONu3vgFTdmEvrw65Tvf4B6htSd0QpxSoSMfpbvooPfbPk6Ih7FUpmkihMY-pZlnL-EoqDJSnAzMmNWDoqNUTsRCVkC7VyHo9VRzCyHD27eqQjkIQ3YRHuBjyBEjzevJs7aqiwHT36lJbNJcS0Bp7K-X9AcdSLO5cx7jYY8BCBZRI64iYTHAGnTs423QecmPXuWffwjkbBD7iWmXbpoh-mduY7bQ0oBs4sqhuTb6UOliZ3QM34iE_0MXO5JeYh5tC3gQ&amp;v=404">
+												<a target="_blank" href="#">
 													<em>魅迪（MEIDI）<font class="skcolor_ljg">车载充电器</font> 一拖三车充苹果安卓Type-c手机汽车用点烟器车充 苹果安卓Type-c-通用白色A款</em>
 												</a>
 											</div>
@@ -985,9 +989,9 @@
 										</li>
 										<li onclick="searchlog(1,1215508,1,81)">
 											<div class="p-img">
-												<a target="_blank" href="https://ccc-x.jd.com/dsp/nc?ext=Y2xpY2sueC5qZC5jb20vSmRDbGljay8_eHVpZD01MjAwNyZ4c2l0ZWlkPTExMjg4NDI1XzI5MSZ0bz1odHRwOi8vaXRlbS5qZC5jb20vMTIxNTUwOC5odG1s&amp;log=UFI9YMu5GY0PBkHfCcXw2J1Fg94vurDI5ilorMpwzkd9gbp4jGEdlT_pFlNRQB_I9oB9_fUA0DdrZ9NX15IYoMRhwn44ceHokEMNmwubsN2o5R0f-tMDZDzir6HovPmAm_TjB-9R6Ev2WDXJt4emf0TZaU4FtOTsbS_uXwJf03bCRSRk3pAI2ylXVbu3w8yzoen3bgZOClmdeSGuNI4hn1LnIbdrhga3YcSAfSMDPJNtx_lWLHQ7-1t867KS5yXIiEAsTmnNWW9qgC9SGRMCr7DY7M21MP4j9xCQNMiKjjd9iFQTMwD-cYqUmdhZm1WVf_PqAWEAoisQ6IOb8Wzxi6BjXVJBs5B0K8x3Pw448ayhfq_mZr2A8x6SdYM-7H9OD_e-EaD4nB9K-KttZIyFe0nJGIlp5295mEFlO6Us1l4&amp;v=404">
-													<img width="160" height="160" data-img="1" src="//img13.360buyimg.com/n2/jfs/t2854/315/1060048380/59351/ce691c61/5732c7b4Nf764707f.jpg" class="err-product">
-													<img src="https://im-x.jd.com/dsp/np?log=UFI9YMu5GY0PBkHfCcXw2J1Fg94vurDI5ilorMpwzkd9gbp4jGEdlT/pFlNRQB/I9oB9/fUA0DdrZ9NX15IYoMRhwn44ceHokEMNmwubsN2o5R0f+tMDZDzir6HovPmAm/TjB+9R6Ev2WDXJt4emf0TZaU4FtOTsbS/uXwJf03bCRSRk3pAI2ylXVbu3w8yzoen3bgZOClmdeSGuNI4hn/gr2t6SbBQfrsEpvYS+TuuTiwpk/kZGpVa4FuHe8+NutT1NzkzFujKXUXyKkGx7cbEe8M8dpxwmWf+fSzIKudrhWm2D07mrRDQvb6BGOCn6YNboq5k0UJsUcHM4tF6xKqQoC16R8m4BZsRrHp9m864PUjTvQ7YviEH3jdjVdcZcqEeFm17iugXXDqQlsFQaFgCLbCKWmtFFRSUpmSTcxJs=&amp;v=404" class="J_adv_tuiguang_exposal" style="display:none;">
+												<a target="_blank" href="#">
+													<img width="160" height="160" data-img="1" src="/thinkphp3.2.3/Public/img/list/gg2.jpg" class="err-product">
+													
 												</a>
 											</div>
 											<div class="p-price">
@@ -1004,8 +1008,8 @@
 											<!--左边的广告结束-->
 											<div class="p-img">
 												<a target="_blank" href="https://ccc-x.jd.com/dsp/nc?ext=Y2xpY2sueC5qZC5jb20vSmRDbGljay8_eHVpZD01MjAwNyZ4c2l0ZWlkPTEwODQzNDk2XzI5MSZ0bz1odHRwOi8vaXRlbS5qZC5jb20vMTA0Nzg5OTk1OTMuaHRtbA&amp;log=UFI9YMu5GY0PBkHfCcXw2J1Fg94vurDI5ilorMpwzkdydJhBQoUoyQFOYOAaU47uy0NvlcqQJ7mWt_EMXm94CeUyVI0Tf1a-BAZBU90QWAoyeS7QGXR_5Bz51yhDZ1venMmgt-gIOGe3hYiAu9IBz0pJ2kgp8x01XeUS9ObAbjsk8hsNpLU1jc-NirrDzvTsaJ_ERccxJ8xKyjrDiMXoYScTIl4hqBYOTxvzXUH_lHz5777LRDEbZzqJOZUeGGM9wSJPMlORsyj7J-tTrZll-10gOsTpD_vCGyokqSWrmuoya-Q3OAgw1Rja11dWGMuVPrVf32wX6UF2KFobot5HEL5v4c5CsjR1xOPzW_Xru14LZtk2_EyzH5VMmLpVE5kB_LGxECGugX943inx-0QIpg&amp;v=404">
-													<img width="160" height="160" data-img="1" data-lazy-img="//img13.360buyimg.com/n2/jfs/t2947/20/1573745558/159174/bc51589a/5786eae7Nc2e77661.jpg" class="err-product">
-													<img src="https://im-x.jd.com/dsp/np?log=UFI9YMu5GY0PBkHfCcXw2J1Fg94vurDI5ilorMpwzkdydJhBQoUoyQFOYOAaU47uy0NvlcqQJ7mWt/EMXm94CeUyVI0Tf1a+BAZBU90QWAoyeS7QGXR/5Bz51yhDZ1venMmgt+gIOGe3hYiAu9IBz0pJ2kgp8x01XeUS9ObAbjsk8hsNpLU1jc+NirrDzvTsVhxpcEVkXPAzRHeHBeCD+kBEGseHQb1R60KcMuO8kgoeq5tmokOM8KbIwUK2H9aS1JfotJhg11E1YubZW3s8we9tisi0CnFSOJa3f5RE/Pl4fIhIYA7shdmP3mwnN5zTU3O98mWa1J1w8ibQbH5cYcWKW39NGqNRrch+evAfBmbuUs7TlmJL9h7Nrm6rDN0/U9FiXd5jphmVHYbI+e8n7APxBLn4OV+lwgWpOZkJC44=&amp;v=404" class="J_adv_tuiguang_exposal" style="display:none;">
+													<img width="160" height="160" data-img="1" src="/thinkphp3.2.3/Public/img/list/gg3.png" class="err-product">
+							
 												</a>
 											</div>
 											<div class="p-price">
@@ -1024,9 +1028,9 @@
 
 							<div id="miaozhen8148" class="ab-pic" style="display: block;">
 								<a href="#" target="_blank" title="">
-									<img src="//img10.360buyimg.com/da/jfs/t2533/54/11252266/22917/77b97c6b/5631f17fNe9938dd6.jpg" width="180" height="240"></a>
+									<img src="/thinkphp3.2.3/Public/img/list/5631f17fNe9938dd6.jpg" width="180" height="240"></a>
 								<a href="#" target="_blank" title="">
-									<img src="//img10.360buyimg.com/da/jfs/t2533/54/11252266/22917/77b97c6b/5631f17fNe9938dd6.jpg" width="180" height="240"></a>
+									<img src="/thinkphp3.2.3/Public/img/list/57d0cbeaN6372fb37.jpg" width="180" height="240"></a>
 							</div>
 						</div>
 					</div>

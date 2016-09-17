@@ -20,12 +20,17 @@
 				border-bottom: 1px solid #7d7d7d;
 			}
 		</style>
+		<script type="text/javascript">
+			$(function() {
+				$('#collapseOne').collapse('show')
+			});
+		</script>
 	</head>
 
-	<body >
+	<body>
 		<div id="top_nav">
 			<a href="#"><img src="/thinkphp3.2.3/Public/img/ule.png" /></a>
-			
+
 			<ul class="nav nav-tabs" style="float:right;margin-right:20px;">
 				<li class="dropdown">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -34,11 +39,19 @@
 					</a>
 					<ul class="dropdown-menu">
 						<!-- links -->
-						
-						<li><a href="#"><span class="glyphicon glyphicon-user" style="margin-right:5px;"></span>我的资料</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-envelope" style="margin-right:5px;"></span>我的消息</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-tasks" style="margin-right:5px;"></span>我的任务</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-off" style="margin-right:5px;"></span>退出登录</a></li>
+
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-user" style="margin-right:5px;"></span>我的资料</a>
+						</li>
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-envelope" style="margin-right:5px;"></span>我的消息</a>
+						</li>
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-tasks" style="margin-right:5px;"></span>我的任务</a>
+						</li>
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-off" style="margin-right:5px;"></span>退出登录</a>
+						</li>
 					</ul>
 				</li>
 			</ul>
@@ -46,10 +59,10 @@
 			<a href="#"><span class="glyphicon glyphicon-envelope" style="color:white;font-size:18px;float:right;margin-right:20px;line-height: 43px;"></span></a>
 		</div>
 		<div id="left_nav">
-<div class="shangping">
-	<span class="glyphicon glyphicon-th" style="margin-right:5px;"></span>
-	商品管理<span class="selected"></span>
-</div>
+			<div class="shangping">
+				<span class="glyphicon glyphicon-th" style="margin-right:5px;"></span> 商品管理
+				<span class="selected"></span>
+			</div>
 			<div class="panel-group" id="accordion">
 				<div class="panel pannel-my">
 					<div class="panel-heading">
@@ -68,7 +81,7 @@
 								<a href="#">主页商品</a>
 							</li>
 							<li>
-								<a href="#">列表页商品</a>
+								<a href="#" class="active">列表页商品</a>
 							</li>
 							<li>
 								<a href="#">商品详情</a>
@@ -129,7 +142,7 @@
 
 		</div>
 		<div id="show_div">
-			 <iframe src="table.html" frameborder="no" border="0" width="100%" height="1000px"></iframe>
+			<iframe src="table.html" frameborder="no" border="0" width="100%" height="1000px"></iframe>
 		</div>
 
 	</body>

@@ -92,6 +92,9 @@
 #list-group li a:hover {
 	background: #878787;
 }
+#list-group li a.active{
+	background: #878787;
+}
 .panel-title>a:hover {
 	background: #333333;
 }

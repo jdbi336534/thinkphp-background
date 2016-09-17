@@ -1,12 +1,15 @@
 var app = angular.module("myApp", []);
 
 app.controller("myCtrl", function($scope, $http) {
-	
+	$scope.alltotal = 0;
+	$scope.len=0;
+	$scope.have = false;
+	$scope.nohave = true;
 	$scope.manyjia = function(index) {
 		$scope.itemcar[index].quality += 1;
 		$scope.itemcar[index].total = $scope.itemcar[index].prdprice * $scope.itemcar[index].quality;
-		$scope.itemcar[index].total=$scope.itemcar[index].total.toFixed(2);
-		
+		$scope.itemcar[index].total = $scope.itemcar[index].total.toFixed(2);
+
 	}
 	$scope.manyjian = function(index) {
 		$scope.itemcar[index].quality -= 1;
@@ -14,8 +17,8 @@ app.controller("myCtrl", function($scope, $http) {
 			$scope.itemcar[index].quality = 1;
 		}
 		$scope.itemcar[index].total = $scope.itemcar[index].prdprice * $scope.itemcar[index].quality;
-		$scope.itemcar[index].total=$scope.itemcar[index].total.toFixed(2);
-		
+		$scope.itemcar[index].total = $scope.itemcar[index].total.toFixed(2);
+
 	}
 	$scope.delthis = function(id, index) {
 		//alert(id+"---"+index);
@@ -26,14 +29,16 @@ app.controller("myCtrl", function($scope, $http) {
 	}
 	$scope.caltotal = function() {
 
-		for(var j = 0; j < $scope.itemcar.length; j++) {
+		
+	for(var j = 0; j < $scope.itemcar.length; j++) {
 			$scope.alltotal += $scope.itemcar[j].total;
-		}
-
+}
+	$scope.len=$scope.itemcar.length;
 	}
 	$scope.start = function() {
 		$http.get('/thinkphp3.2.3/index.php/Home/Index/readlistid').success(function(data) {
 			if(data) {
+				//console.log(data.length);
 				$scope.listid = data;
 				$http.get('/thinkphp3.2.3/index.php/Home/Index/readlist').success(function(data) {
 					var usedate = [];
@@ -60,8 +65,7 @@ app.controller("myCtrl", function($scope, $http) {
 						console.log($scope.itemcar);
 						//				$scope.many=$scope.itemcar[0].quality;
 					} else {
-						$scope.have = false;
-						$scope.nohave = true;
+						
 
 					}
 
@@ -73,5 +77,6 @@ app.controller("myCtrl", function($scope, $http) {
 	}
 
 	$scope.start();
+	
 
 });
