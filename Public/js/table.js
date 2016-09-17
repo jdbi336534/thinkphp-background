@@ -56,13 +56,8 @@ app.controller("backCtrl", function($scope, $http) {
 			prdpingjia:num9,
 			prddianpu:num8,
 			prdimgsrc:num7
-			
-			
 		},function(data) {
-			
 				alert(data);
-			
-			
 		});
 	}
 	$scope.getval=function(){

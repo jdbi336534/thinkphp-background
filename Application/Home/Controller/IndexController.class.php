@@ -30,18 +30,20 @@ class IndexController extends Controller {
 	public function openback() {
 		$this -> display(background);
 	}
-
+	public function opencart() {
+		$this -> display(buycar);
+	}
 
 
 
 
 	public function opencontrol() {
-		if ($_SESSION['name'] != null) {
+		//if ($_SESSION['name'] != null) {
 			$this -> display(index);
-		} else {
-			//$this->error('你还没有登陆，请登录！');
-			$this -> success('你还没有登陆，请登录！', 'openlogin', 3);
-		}
+//		} else {
+//			$this->error('你还没有登陆，请登录！', 'openlogin', 3);
+//			
+//		}
 	}
 
 	public function tocheckcode($verify = null) {
@@ -140,7 +142,7 @@ class IndexController extends Controller {
 	
 
  public function readlist() {
-        $array = array();
+//      $array = array();
         //选择表
         $M = M('listtable');
         $hmany = $M -> count();
@@ -152,7 +154,7 @@ class IndexController extends Controller {
 
 
         //$que = $M -> where($map) -> select();
-        $que = $M -> limit('0,'+$hmany) -> select();
+        $que = $M -> limit('0,'.$hmany) -> select();
         if (!$que) {
             //$this -> error('帐号不存在或被禁用');
         } else {
@@ -244,6 +246,56 @@ class IndexController extends Controller {
             }
 	}
 }
+
+//从列表页获取购物车商品号的ID存入数据库
+	public function listid($listid=null){
+	if(IS_GET){
+		$lisdb = M("listid");
+		$data['listid'] = $listid;
+           $insert_id = $lisdb -> add($data);
+             if ($insert_id !== false) {
+                echo '加入购物车成功！';
+            } else {
+                echo '加入购物车失败！';
+            }
+	}
+}
+//从购物车商品号的ID数据库读取数据返回给购物车页面
+	public function readlistid(){
+	if(IS_GET){
+		 //选择表
+		$lisdb = M("listid");
+		$carthmany = $lisdb -> count();
+		$que1 = $lisdb -> limit('0,'.$carthmany) -> select();
+		 if (!$que1) {
+            //$this -> error('帐号不存在或被禁用');
+        } else {
+            echo json_encode($que1);
+            
+        }
+	}
+}
+
+
+//从购物车删除文件
+	public function delreadlistid($dellistid=null){
+	if(IS_GET){
+		 //选择表
+		$lisdb = M("listid");
+		$map['listid'] = $dellistid;
+		// 删除 id=$id 的数据记录
+        $result = $lisdb->where($map)->delete();
+		
+		if ($result!==false){
+                echo "删除成功！";
+            }else {
+                echo "删除失败！";
+            }
+	}
+}
+
+
+
 
 
 

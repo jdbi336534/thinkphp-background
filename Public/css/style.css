@@ -2802,7 +2802,7 @@ body, button, input, select, textarea {
     background-color: #f3f3f3;
 }
 .cart-head li.item-check {
-    width: 34px;
+    width: 14px;
     text-align: center;
 }
 .cart-head li {
@@ -3109,7 +3109,7 @@ button, input, select, textarea {
 .cart-foot .item-check input {
     width: 14px;
     height: 14px;
-    margin: 0 10px;
+    margin: 0 10px 0 0;
     vertical-align: middle;
 }
 .cart-foot .btn-delsel {

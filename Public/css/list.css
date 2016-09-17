@@ -501,12 +501,12 @@
 
 }
 .goods-list-v2.gl-type-3 .gl-item {
-    height: 380px;
+    height: 400px;
 }
 
 .goods-list-v2 .gl-item {
     width: 237px;
-    height: 474px;
+    height: 400px;
     float: left;
     position: relative;
     z-index: 1;
@@ -764,11 +764,61 @@ a {
 .aside-bar .ab-goods li .p-comm{
 	padding: 8px 10px 0;
 }
+.p-o-btn {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #DDD;
+    padding: 0 3px 0 24px;
+    position: relative;
+    background: #fff;
+    color: #999;
+}
+.p-o-btn i {
+    position: absolute;
+    display: block;
+    font-style: normal;
+    left: 4px;
+    top: 3px;
+    width: 18px;
+    height: 18px;
+    background: url(../img/search.ele.png) no-repeat 9999px 9999px;
+   
+}
+.focus i {
+    background-position: 0 -413px;
+}
+.addcart i{
+    background-position: 0 -272px;
+}
+.contrast i{
+	display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    left: 5px;
+    top: 5px;
+}
+.addcart {
+    width: 67px;
+    text-align: center;
+    color: #e4393c;
+}
 
+.p-o-btn:hover {
+    color: #e4393c;
+    z-index: 1;
+    border-color: #e4393c;
+    text-decoration: none;
+}
+.p-o-btn:hover i{
+	 border-color: #e4393c;
+}
 
-
-
-
+.focus:hover i {
+    background-position: 0 -436px;
+}
 
 
 

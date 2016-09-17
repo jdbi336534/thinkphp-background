@@ -1,5 +1,5 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<html>
+<html ng-app="indexApp" ng-controller="indexCtrl">
 
 	<head>
 		<meta charset="utf-8" />
@@ -12,8 +12,8 @@
 		<!--[if IE]>
 		<script src="/thinkphp3.2.3/Public/js/jquery-1.10.1.min.js"></script>
 	    <![endif]-->
-	    <!--<script src="/thinkphp3.2.3/Public/js/angular.min.js"></script>
-	    <script type="text/javascript" src="/thinkphp3.2.3/Public/js/index.js"></script>-->
+	    <script src="/thinkphp3.2.3/Public/js/angular.min.js"></script>
+	    <script type="text/javascript" src="/thinkphp3.2.3/Public/js/index.js"></script>
 		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/jQueryRotate.2.2.js"></script>
 		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/globle.js"></script>
 		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/model1.js"></script>
@@ -446,32 +446,30 @@
 			<div class="mod-topslide">
 				<ul class="slide-items banner_img">
 					<li class="item-list" >
-						<a href="#"><img src="" /></a>
+						<a href="#"><img id="lbimg1" ng-src="/thinkphp3.2.3/Public/{{item[0].imgsrc}}" /></a>
 					</li>
 					<li class="item-list" >
-						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[1].imgsrc}}" /></a>
+						<a href="#"><img id="lbimg2" ng-src="/thinkphp3.2.3/Public/{{item[1].imgsrc}}" /></a>
 					</li>
 					<li class="item-list" >
-						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[2].imgsrc}}" /></a>
+						<a href="#"><img id="lbimg3" ng-src="/thinkphp3.2.3/Public/{{item[2].imgsrc}}" /></a>
 					</li>
 					<li class="item-list" >
-						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[3].imgsrc}}" /></a>
+						<a href="#"><img id="lbimg4" ng-src="/thinkphp3.2.3/Public/{{item[3].imgsrc}}" /></a>
 					</li>
 					<li class="item-list" >
-						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[4].imgsrc}}" /></a>
+						<a href="#"><img id="lbimg5" ng-src="/thinkphp3.2.3/Public/{{item[4].imgsrc}}" /></a>
 					</li>
 					<li class="item-list" >
-						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[5].imgsrc}}" /></a>
+						<a href="#"><img id="lbimg6" ng-src="/thinkphp3.2.3/Public/{{item[5].imgsrc}}" /></a>
 					</li>
 					<li class="item-list" >
-						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[6].imgsrc}}" /></a>
+						<a href="#"><img id="lbimg7" ng-src="/thinkphp3.2.3/Public/{{item[6].imgsrc}}" /></a>
 					</li>
 					<li class="item-list" >
-						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[7].imgsrc}}" /></a>
+						<a href="#"><img id="lbimg8" ng-src="/thinkphp3.2.3/Public/{{item[7].imgsrc}}" /></a>
 					</li>
-					<li class="item-list" >
-						<a href="#"><img src="/thinkphp3.2.3/Public/{{item[0].imgsrc}}" /></a>
-					</li>
+					
 					
 				</ul>
 				<div class="slide-bottom"></div>
@@ -4646,24 +4644,25 @@
 						<ul class="slide-items">
 							<li>
 								<a href="#">
-									<img ng-src="/thinkphp3.2.3/Public/{{item[1].imgsrc}}" />
+									<img id="lbimg9" src="/thinkphp3.2.3/Public/{{imgsrc}}" />
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img ng-src="/thinkphp3.2.3/Public/{{item[9].imgsrc}}" />
+									<img id="lbimg10" src="/thinkphp3.2.3/Public/{{imgsrc}}" />
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img ng-src="/thinkphp3.2.3/Public/{{item[10].imgsrc}}" />
+									<img id="lbimg11" src="/thinkphp3.2.3/Public/{{item[0].imgsrc}}" />
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img ng-src="/thinkphp3.2.3/Public/{{item[11].imgsrc}}" />
+									<img id="lbimg12" src="/thinkphp3.2.3/Public/{{item[0].imgsrc}}" />
 								</a>
 							</li>
+							
 						</ul>
 						<div class="slide-button">
 							<a class="btn-prev"></a>

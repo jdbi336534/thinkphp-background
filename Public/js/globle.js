@@ -265,14 +265,31 @@ function scrollfun(){
 				 	}
 				});
 }
-lunboimgsrc();
-//轮播图请求
-function lunboimgsrc(){
-	$.getJSON('/thinkphp3.2.3/index.php/Home/Index/readlunbo',function(data){
-		console.log(data);
-		$('.firstscreen>.banner_img>.item-list>a').attr("src",).src=data[0].imgsrc;
-	});
-}
+//lunboimgsrc();
+////轮播图请求
+//function lunboimgsrc(){
+//	$.getJSON('/thinkphp3.2.3/Public/data/imgsrc.json',function(data){
+//		console.log(data[2].imgsrc);
+//		
+//			$("#lbimg1").attr("src","/thinkphp3.2.3/Public/"+data[0].imgsrc);
+//			$("#lbimg2").attr("src","/thinkphp3.2.3/Public/"+data[1].imgsrc);
+//			$("#lbimg3").attr("src","/thinkphp3.2.3/Public/"+data[2].imgsrc);
+//			$("#lbimg4").attr("src","/thinkphp3.2.3/Public/"+data[3].imgsrc);
+//			$("#lbimg5").attr("src","/thinkphp3.2.3/Public/"+data[4].imgsrc);
+//			$("#lbimg6").attr("src","/thinkphp3.2.3/Public/"+data[5].imgsrc);
+//			$("#lbimg7").attr("src","/thinkphp3.2.3/Public/"+data[6].imgsrc);
+//			$("#lbimg8").attr("src","/thinkphp3.2.3/Public/"+data[7].imgsrc);
+//			
+//			$("#lbimg9").attr("src","/thinkphp3.2.3/Public/"+data[8].imgsrc);
+//			$("#lbimg10").attr("src","/thinkphp3.2.3/Public/"+data[9].imgsrc);
+//			$("#lbimg11").attr("src","/thinkphp3.2.3/Public/"+data[10].imgsrc);
+//			$("#lbimg12").attr("src","/thinkphp3.2.3/Public/"+data[11].imgsrc);
+//		
+//			
+//		
+//		
+//	});
+//}
 
 
 

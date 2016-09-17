@@ -7,10 +7,16 @@ var app=angular.module("myApp",[]);
 					$http.get('/thinkphp3.2.3/index.php/Home/Index/readlist').success(function(data){
 						$scope.flag=true;
 						$scope.categorie=data;
-						//console.log(data);
+						console.log(data);
 					});
 					
-					};
+					}
+				$scope.addcart=function(id){
+					
+					$http.get('/thinkphp3.2.3/index.php/Home/Index/listid?listid='+id).success(function(data){
+						alert(data);
+					});
+				}
 				$scope.ajadata();
 				
 			});
