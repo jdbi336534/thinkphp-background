@@ -33,8 +33,12 @@ class IndexController extends Controller {
 	public function opencart() {
 		$this -> display(buycar);
 	}
-
-
+	public function openinfo() {
+		$this -> display(product);
+	}
+	public function Sendmail(){
+		sendMail("992042912@qq.com","您在woline网站注册，注册的验证码为：","456987");
+	}
 
 
 	public function opencontrol() {
@@ -42,7 +46,7 @@ class IndexController extends Controller {
 			$this -> display(index);
 //		} else {
 //			$this->error('你还没有登陆，请登录！', 'openlogin', 3);
-//			
+//
 //		}
 	}
 
@@ -66,7 +70,7 @@ class IndexController extends Controller {
 			// echo $password;
 			$d['username'] = $username;
 			$password = trim($password);
-			$M = M('account');
+			$M = M('users');
 			$d['code'] = trim(rand(1000, 9999));
 			// echo   $d['code'];
 			$d['password'] = md5($password . $d['code']);
@@ -94,7 +98,7 @@ class IndexController extends Controller {
 	public function phonecheck($phone = null) {
 		if (IS_POST) {
 			$phone = trim($phone);
-			$M = M('account');
+			$M = M('users');
 			$sql['username'] = $phone;
 			$que = $M -> where($sql) -> find();
 			if (!$que) {
@@ -106,13 +110,13 @@ class IndexController extends Controller {
 		}
 
 	}
-	
+
 
 	public function login($username = null, $password = null) {
 
 		$password = trim($password);
 		//选择表
-		$M = M('account');
+		$M = M('users');
 		//查询数据
 		$sql['username'] = $username;
 		$que = $M -> where($sql) -> find();
@@ -128,7 +132,7 @@ class IndexController extends Controller {
 			// echo $username;
 			session('name', $username);
 			// echo $change.'----->';
-			 
+
 
 			$this -> success('登陆成功', 'opencontrol', 2);
 
@@ -138,8 +142,8 @@ class IndexController extends Controller {
 		}
 
 	}
-	
-	
+
+
 
  public function readlist() {
 //      $array = array();
@@ -179,11 +183,11 @@ class IndexController extends Controller {
             }
 	}
 }
-    
+
     //从数据库添加数据
     public function database($prdprice = null, $prdname1 = null, $prdname2 = null,$prdi=null, $prdfont1 = null, $prdfont2 = null, $prdpingjia = null, $prddianpu = null, $prdimgsrc = null) {
         if (IS_POST) {
-        	
+
             $listtable = M("listtable");
             $data['prdprice'] = $prdprice;
             $data['prdname1'] = $prdname1;
@@ -216,8 +220,8 @@ class IndexController extends Controller {
             $data['prdpingjia'] = $prdpingjia;
             $data['prddianpu'] = $prddianpu;
             $data['prdimgsrc'] = $prdimgsrc;
-           
-           
+
+
             // 更新的条件
             $condition['id'] = $id;
             $result = $listtable -> where($condition) -> save($data);
@@ -235,12 +239,12 @@ class IndexController extends Controller {
 	public function readlunbo(){
 	if(IS_GET){
 		$lunbo = M("lunbo");
-		
+
              $result = $lunbo->select();
             if ($result!==false){
                 echo json_encode($result);
                 //var_dump($result);
-                
+
             }else {
                 echo -1;
             }
@@ -271,7 +275,7 @@ class IndexController extends Controller {
             //$this -> error('帐号不存在或被禁用');
         } else {
             echo json_encode($que1);
-            
+
         }
 	}
 }
@@ -285,7 +289,7 @@ class IndexController extends Controller {
 		$map['listid'] = $dellistid;
 		// 删除 id=$id 的数据记录
         $result = $lisdb->where($map)->delete();
-		
+
 		if ($result!==false){
                 echo "删除成功！";
             }else {

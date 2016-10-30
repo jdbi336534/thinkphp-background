@@ -17,7 +17,20 @@ var app=angular.module("myApp",[]);
 						alert(data);
 					});
 				}
+				
+				$scope.cartmany=function(){
+					$http.get('/thinkphp3.2.3/index.php/Home/Index/readlistid').success(function(data) {
+						$scope.manycart=data.length;
+					})
+				}
+				
+				
+				
+				
+				
+				
 				$scope.ajadata();
+				$scope.cartmany();
 				
 			});
 			

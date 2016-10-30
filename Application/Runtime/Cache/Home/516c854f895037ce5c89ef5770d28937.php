@@ -4,15 +4,16 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
-		<link href="/thinkphp3.2.3/Public/img/favicon.ico" rel="icon" type="image/x-icon" />
-		<link rel="stylesheet" href="/thinkphp3.2.3/Public/css/reset.css" />
-		<link rel="stylesheet" href="/thinkphp3.2.3/Public/css/style.css" />
-		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/jquery-3.1.0.min.js"></script>
+		<link href="/background/Public/img/favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" href="/background/Public/css/reset.css" />
+		<link rel="stylesheet" href="/background/Public/css/style.css" />
+		<script type="text/javascript" src="/background/Public/js/jquery-3.1.0.min.js"></script>
 		<!--[if IE]>
-		<script src="/thinkphp3.2.3/Public/js/jquery-1.10.1.min.js"></script>
+		<script src="/background/Public/js/jquery-1.10.1.min.js"></script>
 	    <![endif]-->
-		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/register.js"></script>
-		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/globle.js"></script>
+	    <script type="text/javascript" src="/background/Public/js/jQueryRotate.2.2.js"></script>
+		<script type="text/javascript" src="/background/Public/js/register.js"></script>
+		<script type="text/javascript" src="/background/Public/js/globle.js"></script>
 
 	</head>
 
@@ -26,7 +27,7 @@
 						</li>
 					</ul>
 					<ul class="fr userinfo">
-						<li class="welcome ">您好，欢迎来到邮乐网！</li>
+						<li class="welcome "><a href="#"><?php echo (session('name')); ?></a> 您好，欢迎来到邮乐网！</li>
 						<li class="login">
 							<a href="/thinkphp3.2.3/index.php/Home/Index/openlogin">[请登录] </a>
 							<a href="<?php echo U('Index/openurl');?>" target="_blank">[免费注册]</a>
@@ -333,7 +334,7 @@
 										<div class="item-input">
 											<input type="text" id="mobileCode" class="inputbox short msged val" name="mobileCode" maxlength="4" size="8">
 										</div>
-										<div class="imgBtn"><img id="verifyImg" src="/thinkphp3.2.3/index.php/Home/Index/verify_c/"></div>
+										<div class="imgBtn"><img id="verifyImg" src="/background/index.php/Home/Index/verify_c/"></div>
 									</div>
 								</div>
 							</div>

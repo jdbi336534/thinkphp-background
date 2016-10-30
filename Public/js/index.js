@@ -12,7 +12,12 @@ app.controller("indexCtrl", function($scope, $http) {
 			console.log($scope.item);
 		});
 	}
-	
+	$scope.cartmany=function(){
+					$http.get('/thinkphp3.2.3/index.php/Home/Index/readlistid').success(function(data) {
+						$scope.manycart=data.length;
+					})
+				}
 	
 	$scope.ajadata();
+	$scope.cartmany();
 });

@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 #top_nav {
 	height: 43px;
 	background: #212121;
@@ -42,7 +41,7 @@
 }
 #left_nav {
 	width: 200px;
-	min-height: 1000px;
+	min-height: auto;
 	background: #3d3d3d;
 	float: left;
 }

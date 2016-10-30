@@ -20,7 +20,7 @@
 		</script>
 	</head>
 
-	<body class="w1280">
+	<body class="w1280" data-ng-app="myApp" ng-controller="myCtrl">
 		<div class="header">
 			<div class="head-top">
 				<div class="layout">
@@ -314,7 +314,7 @@
 					<a href="#" class="logo-ule">邮乐网</a>
 				</div>
 				<div class="head-shopcart" data-uspm-id="1.1.1_C2014.104.0.1" data-uspm-count="0|1">
-					<span class="shopcart-sum" style="display:block;" data-uspm-id="1.1.1_C2014.104.cart.1">购物车<span class="shopcart-num">0</span></span>
+					<a href="/thinkphp3.2.3/index.php/Home/Index/opencart"><span class="shopcart-sum" style="display:block;">购物车<span class="shopcart-num">{{manycart}}</span></span></a>
 					<s></s>
 					<ul class="shopcart-list" style="display: none;">
 						<li class="list-empty">您购物车里还没有任何宝贝，快来挑选吧</li>
@@ -862,7 +862,7 @@
 													
 													<div class="mc" data-area="3" data-widget="tab-content"></div>
 												</div><span class="clr"></span></div>
-											<div class="close" onclick="$('#store-selector').removeClass('hover')"></div>
+											<div class="close" ></div>
 										</div>
 									</div>
 									<div id="J_feature" class="f-feature">
@@ -885,13 +885,13 @@
 									<span class="clr"></span>
 								</div>
 							</div>
-							<div id="J_goodsList" class="goods-list-v2 gl-type-3 J-goods-list" data-ng-app="myApp" ng-controller="myCtrl">
+							<div id="J_goodsList" class="goods-list-v2 gl-type-3 J-goods-list" >
 								<ul class="gl-warp clearfix" ng-if="flag">
 									<!--商品列表-->
 									<li  class="gl-item" data-ng-repeat="x in categorie">
 										<div class="gl-i-wrap">
 											<div class="p-img">
-												<a target="_blank" href="#" title="全店满49元起顺丰包邮 让订单飞到您的手里 详询客服">
+												<a target="_blank" href="/thinkphp3.2.3/index.php/Home/Index/openinfo" title="全店满49元起顺丰包邮 让订单飞到您的手里 详询客服">
 													<img width="220" height="220" class="err-product"  ng-src="__PUBLIC__/{{x.prdimgsrc}}">
 												</a>
 												<div ></div>
@@ -899,7 +899,7 @@
 											<div class="p-price">
 												<strong class="J_10104485767" ><em>￥</em><i>{{x.prdprice}}</i></strong> </div>
 											<div class="p-name p-name-type-2">
-												<a target="_blank" title="全店满49元起顺丰包邮 让订单飞到您的手里 详询客服" href="#">
+												<a target="_blank" title="全店满49元起顺丰包邮 让订单飞到您的手里 详询客服" href="/thinkphp3.2.3/index.php/Home/Index/openinfo">
 													<em>{{x.prdname1}}<font class="skcolor_ljg">{{x.prdfont1}}</font>
 														<i>{{x.prdi}}</i>
 														<font class="skcolor_ljg">{{x.prdfont2}}</font>

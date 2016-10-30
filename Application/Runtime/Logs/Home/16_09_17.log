@@ -13369,3 +13369,3034 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2016-09-17T22:56:43+08:00 ] ::1 /thinkphp3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.243014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant login - assumed 'login' D:\AppServ\www\thinkphp3.2.3\Application\Home\Controller\IndexController.class.php 第 8 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.030001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.030001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T22:57:53+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/phonecheck/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.1100s ]
+SQL: SELECT * FROM `account` WHERE `username` = '18604554253' LIMIT 1   [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `account` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `account` WHERE `username` = '18604554253' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:02+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/opencontrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\AppServ\www\thinkphp3.2.3\Application\Home\Controller\IndexController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:02+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/ico_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:02+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:02+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:02+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:02+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:02+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:02+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/topline3/e88096e4b89a5673_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/topline3/521d84bd489856f2_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/topline3/0ca4199a048b3abf_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/topline3/8d34b58190641499_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/headmenu/109dbf65989b8f4f_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/headmenu/7e280bb275bf3e12_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/headmenu/4be486bab2b2925a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/5b847f09bf975e4f_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/headmenu/312946439c4d4846_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/topline3/67eb1fd0b46e19d4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/topline3/62c238325eb4292b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/cb6a89d47c2478a5_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/d5b35ea2064d219c_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/c8503245dc14ad88_p800x800_130x130.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/jianguo2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/jianguo1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/d34659a49e29eb81_p1000x1000_130x130.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/51e444cd5ac84620_p800x800_130x130.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/238f4b4f90e56d47_p700x700_130x130.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/topline3/c4b56b48d39fa830_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/37a47e507d7cda35_p790x587_100x100.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/223a3d53f38962db_p600x600_100x100.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0dafa2eeff874a4b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/42a78f3b401b45e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0a9e9e441a337f6b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/28bd3ff6f54f1a1a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/881b9e864a548c93_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/bdda93f24e2f2bd9_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/d9945af94486a6bd_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/164b8aa6e4b8d547_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/a4e8ca9633913bfe_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/9eebaeb48a4b3d94_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/1e61f1f4a178b114_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/6cc14c341339a4ef_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/6a82f8ce6914fce8_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/74adbbb7f85ec122_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/ae9034568be39d59_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/45249d5b1990debb_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/844477da2bf439e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/606283c4d379c038_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/9e0492f828d2ecbf_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/b08bb94bce36f26d_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/6037cc7194ce19a7_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/26d13e9c4286b51c_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/360106cf34220bfd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/57ca7f1e3437cb85_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/d2923afea3dd264a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/19864270404744f3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/3188146e6ae02c80_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/e58147044e43b216_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T22:58:03+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/r2-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:13:23+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/opencontrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\AppServ\www\thinkphp3.2.3\Application\Home\Controller\IndexController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:23+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/ico_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:23+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:23+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:13:23+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:23+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:23+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:23+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/topline3/c4b56b48d39fa830_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/5b847f09bf975e4f_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/cb6a89d47c2478a5_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/topline3/62c238325eb4292b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/topline3/67eb1fd0b46e19d4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/d5b35ea2064d219c_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/jianguo1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/jianguo2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/51e444cd5ac84620_p800x800_130x130.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/c8503245dc14ad88_p800x800_130x130.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0dafa2eeff874a4b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/223a3d53f38962db_p600x600_100x100.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/28bd3ff6f54f1a1a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0a9e9e441a337f6b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/42a78f3b401b45e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/d34659a49e29eb81_p1000x1000_130x130.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/37a47e507d7cda35_p790x587_100x100.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/238f4b4f90e56d47_p700x700_130x130.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/bdda93f24e2f2bd9_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/d9945af94486a6bd_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/164b8aa6e4b8d547_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/a4e8ca9633913bfe_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/6a82f8ce6914fce8_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/74adbbb7f85ec122_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/1e61f1f4a178b114_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/6cc14c341339a4ef_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/45249d5b1990debb_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/9eebaeb48a4b3d94_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/881b9e864a548c93_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/844477da2bf439e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/9e0492f828d2ecbf_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/d2923afea3dd264a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/606283c4d379c038_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/6037cc7194ce19a7_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/57ca7f1e3437cb85_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/26d13e9c4286b51c_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/360106cf34220bfd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/19864270404744f3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/ae9034568be39d59_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/3188146e6ae02c80_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/b08bb94bce36f26d_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/e58147044e43b216_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:13:24+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/r2-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/opencontrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\AppServ\www\thinkphp3.2.3\Application\Home\Controller\IndexController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/ico_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/jianguo1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/jianguo2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/d34659a49e29eb81_p1000x1000_130x130.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/d5b35ea2064d219c_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/cb6a89d47c2478a5_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/c8503245dc14ad88_p800x800_130x130.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/51e444cd5ac84620_p800x800_130x130.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/37a47e507d7cda35_p790x587_100x100.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/238f4b4f90e56d47_p700x700_130x130.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/6a82f8ce6914fce8_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/881b9e864a548c93_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/223a3d53f38962db_p600x600_100x100.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0a9e9e441a337f6b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/d9945af94486a6bd_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/164b8aa6e4b8d547_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/42a78f3b401b45e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/a4e8ca9633913bfe_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/1e61f1f4a178b114_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/28bd3ff6f54f1a1a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/bdda93f24e2f2bd9_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/6cc14c341339a4ef_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/74adbbb7f85ec122_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/9eebaeb48a4b3d94_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/ae9034568be39d59_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/45249d5b1990debb_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/9e0492f828d2ecbf_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/844477da2bf439e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/b08bb94bce36f26d_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0dafa2eeff874a4b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/6037cc7194ce19a7_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/26d13e9c4286b51c_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/360106cf34220bfd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/19864270404744f3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/3188146e6ae02c80_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/57ca7f1e3437cb85_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/606283c4d379c038_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/r2-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/d2923afea3dd264a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:17:13+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/e58147044e43b216_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/opencontrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\AppServ\www\thinkphp3.2.3\Application\Home\Controller\IndexController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/ico_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0a9e9e441a337f6b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/bdda93f24e2f2bd9_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/28bd3ff6f54f1a1a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/d9945af94486a6bd_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/881b9e864a548c93_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/164b8aa6e4b8d547_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/9eebaeb48a4b3d94_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/6a82f8ce6914fce8_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/1e61f1f4a178b114_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/74adbbb7f85ec122_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/6cc14c341339a4ef_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/45249d5b1990debb_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/844477da2bf439e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/a4e8ca9633913bfe_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/9e0492f828d2ecbf_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/606283c4d379c038_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/42a78f3b401b45e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/d2923afea3dd264a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/b08bb94bce36f26d_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/6037cc7194ce19a7_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/26d13e9c4286b51c_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/19864270404744f3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/3188146e6ae02c80_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/360106cf34220bfd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/ae9034568be39d59_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/57ca7f1e3437cb85_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/r2-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/e58147044e43b216_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:58+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/headmenu/btn-cate-normal.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:23:58+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/headmenu/sprite_category.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:24:42+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/headmenu/btn-cate-normal.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/opencontrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\AppServ\www\thinkphp3.2.3\Application\Home\Controller\IndexController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/ico_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0a9e9e441a337f6b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/881b9e864a548c93_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/6a82f8ce6914fce8_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/d9945af94486a6bd_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/28bd3ff6f54f1a1a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/a4e8ca9633913bfe_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/1e61f1f4a178b114_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/9eebaeb48a4b3d94_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/42a78f3b401b45e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/164b8aa6e4b8d547_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/74adbbb7f85ec122_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/6cc14c341339a4ef_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/45249d5b1990debb_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/844477da2bf439e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/9e0492f828d2ecbf_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/606283c4d379c038_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/d2923afea3dd264a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/bdda93f24e2f2bd9_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/b08bb94bce36f26d_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/ae9034568be39d59_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/6037cc7194ce19a7_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/26d13e9c4286b51c_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/360106cf34220bfd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/57ca7f1e3437cb85_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/r2-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/3188146e6ae02c80_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/e58147044e43b216_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:24:46+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/19864270404744f3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:25:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/headmenu/sprite_category.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/headmenu/btn-cate-normal.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/opencontrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\AppServ\www\thinkphp3.2.3\Application\Home\Controller\IndexController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/ico_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0a9e9e441a337f6b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/6a82f8ce6914fce8_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/881b9e864a548c93_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/42a78f3b401b45e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/bdda93f24e2f2bd9_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/28bd3ff6f54f1a1a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/d9945af94486a6bd_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/a4e8ca9633913bfe_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/1e61f1f4a178b114_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/164b8aa6e4b8d547_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/6cc14c341339a4ef_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/74adbbb7f85ec122_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/45249d5b1990debb_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/844477da2bf439e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/ae9034568be39d59_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/9eebaeb48a4b3d94_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/9e0492f828d2ecbf_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/b08bb94bce36f26d_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/26d13e9c4286b51c_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/6037cc7194ce19a7_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/57ca7f1e3437cb85_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:25:06+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/d2923afea3dd264a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-09-17T23:25:07+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/360106cf34220bfd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:25:07+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/3188146e6ae02c80_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:25:07+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/606283c4d379c038_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:25:07+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/r2-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:25:07+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/19864270404744f3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:25:07+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:25:07+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/e58147044e43b216_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:30:18+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/opencontrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\AppServ\www\thinkphp3.2.3\Application\Home\Controller\IndexController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.176010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.176010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:30:18+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/ico_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:18+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:30:18+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:18+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:18+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-09-17T23:30:18+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0a9e9e441a337f6b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/6a82f8ce6914fce8_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/42a78f3b401b45e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/28bd3ff6f54f1a1a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/164b8aa6e4b8d547_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/881b9e864a548c93_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/d9945af94486a6bd_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/9eebaeb48a4b3d94_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/1e61f1f4a178b114_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/6cc14c341339a4ef_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/a4e8ca9633913bfe_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/74adbbb7f85ec122_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/45249d5b1990debb_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/ae9034568be39d59_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/844477da2bf439e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/bdda93f24e2f2bd9_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/9e0492f828d2ecbf_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/606283c4d379c038_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/b08bb94bce36f26d_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/6037cc7194ce19a7_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/57ca7f1e3437cb85_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/26d13e9c4286b51c_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033002s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/19864270404744f3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/360106cf34220bfd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/3188146e6ae02c80_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/d2923afea3dd264a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021001s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/e58147044e43b216_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:30:19+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/r2-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/opencontrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\AppServ\www\thinkphp3.2.3\Application\Home\Controller\IndexController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/ico_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/28bd3ff6f54f1a1a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/d9945af94486a6bd_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/42a78f3b401b45e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/6a82f8ce6914fce8_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/bdda93f24e2f2bd9_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/a4e8ca9633913bfe_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/881b9e864a548c93_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.046003s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/1e61f1f4a178b114_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/9eebaeb48a4b3d94_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/74adbbb7f85ec122_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/844477da2bf439e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/6cc14c341339a4ef_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/45249d5b1990debb_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/9e0492f828d2ecbf_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/606283c4d379c038_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/6037cc7194ce19a7_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:35:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/ae9034568be39d59_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/26d13e9c4286b51c_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/57ca7f1e3437cb85_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:35:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/360106cf34220bfd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0a9e9e441a337f6b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/d2923afea3dd264a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:35:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/b08bb94bce36f26d_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/19864270404744f3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/3188146e6ae02c80_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:35:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/r2-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:35:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/e58147044e43b216_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:35:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:37:35+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/opencontrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\AppServ\www\thinkphp3.2.3\Application\Home\Controller\IndexController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.170009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.170009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-09-17T23:37:35+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/ico_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:37:35+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:35+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:35+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:35+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:35+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:35+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/1e61f1f4a178b114_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/9eebaeb48a4b3d94_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/a4e8ca9633913bfe_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/74adbbb7f85ec122_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/6cc14c341339a4ef_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/606283c4d379c038_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/ae9034568be39d59_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/844477da2bf439e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/9e0492f828d2ecbf_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/45249d5b1990debb_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/d2923afea3dd264a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/b08bb94bce36f26d_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/6037cc7194ce19a7_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0a9e9e441a337f6b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/26d13e9c4286b51c_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/57ca7f1e3437cb85_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/360106cf34220bfd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/42a78f3b401b45e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/bdda93f24e2f2bd9_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/881b9e864a548c93_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/19864270404744f3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/3188146e6ae02c80_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/6a82f8ce6914fce8_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/e58147044e43b216_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/r2-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/28bd3ff6f54f1a1a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:37:36+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/d9945af94486a6bd_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/opencontrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\AppServ\www\thinkphp3.2.3\Application\Home\Controller\IndexController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.155009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/ico_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:46:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-09-17T23:46:04+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/9eebaeb48a4b3d94_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/6cc14c341339a4ef_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/a4e8ca9633913bfe_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/74adbbb7f85ec122_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/57ca7f1e3437cb85_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/26d13e9c4286b51c_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/6037cc7194ce19a7_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/844477da2bf439e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/606283c4d379c038_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/d2923afea3dd264a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/ae9034568be39d59_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/360106cf34220bfd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/1e61f1f4a178b114_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/9e0492f828d2ecbf_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/b08bb94bce36f26d_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/45249d5b1990debb_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/28bd3ff6f54f1a1a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0a9e9e441a337f6b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/42a78f3b401b45e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/bdda93f24e2f2bd9_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/d9945af94486a6bd_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/19864270404744f3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/3188146e6ae02c80_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/6a82f8ce6914fce8_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/881b9e864a548c93_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/r2-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:05+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/e58147044e43b216_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:08+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/opencontrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\AppServ\www\thinkphp3.2.3\Application\Home\Controller\IndexController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:08+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/ico_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:08+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:08+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:46:08+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:08+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:08+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:46:08+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:08+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/1e61f1f4a178b114_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:08+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/a4e8ca9633913bfe_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/9eebaeb48a4b3d94_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/6cc14c341339a4ef_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/6037cc7194ce19a7_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/74adbbb7f85ec122_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/26d13e9c4286b51c_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/9e0492f828d2ecbf_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/ae9034568be39d59_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/606283c4d379c038_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/d2923afea3dd264a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/844477da2bf439e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/b08bb94bce36f26d_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/360106cf34220bfd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/57ca7f1e3437cb85_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.054003s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/45249d5b1990debb_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/42a78f3b401b45e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0a9e9e441a337f6b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+
+]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/6a82f8ce6914fce8_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/28bd3ff6f54f1a1a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/d9945af94486a6bd_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/e58147044e43b216_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/19864270404744f3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/3188146e6ae02c80_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:09+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/r2-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/opencontrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\AppServ\www\thinkphp3.2.3\Application\Home\Controller\IndexController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/ico_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/74adbbb7f85ec122_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/a4e8ca9633913bfe_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/1e61f1f4a178b114_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/6037cc7194ce19a7_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/6cc14c341339a4ef_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/26d13e9c4286b51c_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/844477da2bf439e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/ae9034568be39d59_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/606283c4d379c038_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/9e0492f828d2ecbf_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/57ca7f1e3437cb85_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/d2923afea3dd264a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/b08bb94bce36f26d_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0a9e9e441a337f6b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/45249d5b1990debb_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:11+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/28bd3ff6f54f1a1a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/360106cf34220bfd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/42a78f3b401b45e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/d9945af94486a6bd_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/19864270404744f3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/6a82f8ce6914fce8_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/881b9e864a548c93_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:46:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/3188146e6ae02c80_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:46:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/bdda93f24e2f2bd9_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:46:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/r2-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:46:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:46:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/e58147044e43b216_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:46:12+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/9eebaeb48a4b3d94_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/opencontrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\AppServ\www\thinkphp3.2.3\Application\Home\Controller\IndexController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/ico_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/dc3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/mb2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/844477da2bf439e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/ae9034568be39d59_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/9e0492f828d2ecbf_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/d2923afea3dd264a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/606283c4d379c038_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/a4e8ca9633913bfe_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/9eebaeb48a4b3d94_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/360106cf34220bfd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logo/b08bb94bce36f26d_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/6cc14c341339a4ef_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/6037cc7194ce19a7_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/26d13e9c4286b51c_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/1e61f1f4a178b114_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/74adbbb7f85ec122_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/littlelinbo/45249d5b1990debb_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/logoshop/57ca7f1e3437cb85_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-09-17T23:52:00+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/28bd3ff6f54f1a1a_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-17T23:52:01+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/881b9e864a548c93_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:52:01+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/6a82f8ce6914fce8_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:01+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/42a78f3b401b45e3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-09-17T23:52:01+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/d9945af94486a6bd_m.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:01+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/19864270404744f3_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:01+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/3188146e6ae02c80_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:52:01+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-17T23:52:01+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/img1/bdda93f24e2f2bd9_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-17T23:52:01+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/r2-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-09-17T23:52:01+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/0a9e9e441a337f6b_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-17T23:52:01+08:00 ] ::1 /thinkphp3.2.3/index.php/Home/Index/img/e58147044e43b216_-1x-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

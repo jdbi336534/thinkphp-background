@@ -13,8 +13,8 @@
 	    <![endif]-->
 	    <script type="text/javascript" src="__PUBLIC__/js/angular.min.js"></script>
 	    <script type="text/javascript" src="__PUBLIC__/js/carbuy.js"></script>
-		<!--<script type="text/javascript" src="js/jQueryRotate.2.2.js"></script>
-		<script type="text/javascript" src="js/globle.js"></script>-->
+		<script type="text/javascript" src="__PUBLIC__/js/jQueryRotate.2.2.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/js/globle.js"></script>
 		
 	</head>
 
@@ -30,8 +30,8 @@
 					<ul class="fr userinfo">
 						<li class="welcome "><a href="#">{$Think.session.name}</a> 您好，欢迎来到邮乐网！</li>
 						<li class="login">
-							<a href="login.html">[请登录] </a>
-							<a href="register.html" target="_blank">[免费注册]</a>
+							<a href="/thinkphp3.2.3/index.php/Home/Index/openlogin">[请登录] </a>
+							<a href="{:U('Index/openurl')}" target="_blank">[免费注册]</a>
 						</li>
 						<li class="bldr dropdown mylu">
 							<a href="#">我的邮乐</a>

@@ -228,8 +228,8 @@ $(document).ready(function() {
 			$(this).children(".prod-name").css({
 				"height": 30,
 				"bottom": 42,
-				"background": "none",
-				"opacity": 1,
+				"background": "#fff",
+				"opacity": 0.8,
 				"line-height": "30px"
 
 			});
@@ -261,8 +261,8 @@ $(document).ready(function() {
 			$(this).children(".prod-name").css({
 				"height": 30,
 				"bottom": 26,
-				"background": "none",
-				"opacity": 1,
+				"background": "#fff",
+				"opacity": 0.8,
 				"line-height": "30px"
 
 			});

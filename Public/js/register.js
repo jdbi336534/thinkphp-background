@@ -62,24 +62,24 @@ $(document).ready(function() {
 	//点击agree
 	function agree() {
 		$("#agreei").click(function() {
-
-			if(flagphone) {
-				if(flagcode) {
-					if(flagpwd1) {
-						if(flagpwd2) {
-							if($("#agreei").hasClass("focusin")) {
-								$("#agreei").removeClass("focusin");
-								$(".reg-btn a.regMobBtn").css("background-position", "0 -141px");
-								$(".reg-btn a.regMobBtn").off("click");
-							} else {
+console.log(1111);
+			// if(flagphone) {
+			// 	if(flagcode) {
+			// 		if(flagpwd1) {
+			// 			if(flagpwd2) {
+							// if($("#agreei").hasClass("focusin")) {
+							// 	$("#agreei").removeClass("focusin");
+							// 	$(".reg-btn a.regMobBtn").css("background-position", "0 -141px");
+							// 	$(".reg-btn a.regMobBtn").off("click");
+							// } else {
 								$("#agreei").addClass("focusin");
 								$(".reg-btn a.regMobBtn").css("background-position", "0 -196px");
 								$(".reg-btn a.regMobBtn").on("click", function() {
 									var use = $("#userMobile").val();
 									var pwd = $("#repeatpasswd").val();
-									$.post("/thinkphp3.2.3/index.php/Home/Index/insert/", {
-										username: use,
-										password: pwd
+									$.post("/background/index.php/Home/Index/insert/", {
+										username: 123,
+										password: 456
 									}, function(data) {
 										if(data == 1) {
 											$("form").html("<div style=\"margin:200px auto;width:260px;text-align:center;font-size:20px;\">注册成功，点击返回<a href='/thinkphp3.2.3/index.php/Home/Index/openlogin' style=\"color:blue;\">登录</a>！</div>");
@@ -90,11 +90,11 @@ $(document).ready(function() {
 
 								});
 
-							}
-						}
-					}
-				}
-			}
+							// }
+			// 			}
+			// 		}
+			// 	}
+			// }
 		});
 	}
 

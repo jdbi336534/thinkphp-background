@@ -291,7 +291,14 @@ function scrollfun(){
 //	});
 //}
 
-
+	
+//	cartmany();
+//	function cartmany(){
+//		$.getJSON('/thinkphp3.2.3/index.php/Home/Index/readlistid',function(data){
+//			//alert(data.length);
+//			$("shopcart-num").html(data.length);
+//		});
+//	}
 
 
 

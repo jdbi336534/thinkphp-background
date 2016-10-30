@@ -16,9 +16,12 @@ $(document).ready(function() {
 
 		});
 	}
+	var winH = $(window).height();
 	
 	
 	
+	$("#left_nav").height(winH);
+	$("iframe").height(winH-30);
 	
 	
 	

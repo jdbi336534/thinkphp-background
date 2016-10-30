@@ -1,0 +1,30 @@
+*{margin: 0; padding: 0;}
+.one{width: 350px; height: 350px; border: 1px solid #CCCCCC; position: relative;}
+.one span{
+	width: 175px;
+	height: 175px;
+	position: absolute;
+	border: 1px solid #AFAFAF;
+	top: 0;
+	left: 0;
+	display: none
+}
+.one:hover span{display:block; background-image:url(../img/bg.png)}
+.wai{float: left;    margin: 14px 14px 14px 14px;}
+.two{ padding: 30px 0 0 50px;}
+.two img{border: 1px solid #ccc;}
+.two .active{border: 1px solid red;}
+.two img:hover{border: 1px solid red;}
+.the{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	float: left;
+	left: 374px;
+    top: 0px;
+	overflow: hidden;
+	border: 1px solid #969696;
+	display: none;
+	    z-index: 999;
+}
+.the img{position: absolute; display: block;}

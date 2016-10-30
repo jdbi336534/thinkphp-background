@@ -2561,7 +2561,7 @@ body, button, input, select, textarea {
 }
 .reg-btn a.regMobBtn {
     display: inline-block;
-    background: url(../img/login/icon.jpg) 0 -196px no-repeat;
+    background: url(../img/login/icon.jpg) 0 -141px no-repeat;
     height: 40px;
     width: 350px;
 }

@@ -315,7 +315,7 @@
 					<a href="#" class="logo-ule">邮乐网</a>
 				</div>
 				<div class="head-shopcart" data-uspm="104" data-uspm-type="all">
-					<span class="shopcart-sum" style="display:block;">购物车<span class="shopcart-num">0</span></span>
+					<a href="/thinkphp3.2.3/index.php/Home/Index/opencart"><span class="shopcart-sum" style="display:block;">购物车<span class="shopcart-num">{{manycart}}</span></span></a>
 					<s></s>
 					<ul class="shopcart-list">
 						<li class="list-empty">您购物车里还没有任何宝贝，快来挑选吧</li>
@@ -363,7 +363,7 @@
 						</li>
 						<li class="li-ju">
 							<a class="nav-ju" href="#" target="_blank">聚热销
-								<img style="position:absolute;margin-top:-13px;margin-left:-6px;display:inline;" src="img/ico_new.png"></a>
+								<img style="position:absolute;margin-top:-13px;margin-left:-6px;display:inline;" src="/thinkphp3.2.3/Public/img/ico_new.png"></a>
 						</li>
 						<li class="li-special">
 							<a class="nav-special" href="#" target="_blank">天天特卖</a>
@@ -390,17 +390,17 @@
 									<ul>
 										<li class="dc1">
 											<a data-uspm="dc1" href="#" srcid="Homepage_nav_coupon_dc1" target="_blank">
-												<img src="img/dc1.jpg">
+												<img src="/thinkphp3.2.3/Public/img/dc1.jpg">
 												<label><strong>兑奖换礼</strong><span>专为端午卡、手拉手奖品、奶粉卡等设立的专供兑换的频道。在这里兑换的商品总会有一款是您的最爱。</span></label></a>
 										</li>
 										<li class="dc2">
 											<a data-uspm="dc2" href="#" srcid="Homepage_nav_coupon_dc2" target="_blank">
-												<img src="img/dc2.jpg">
+												<img src="/thinkphp3.2.3/Public/img/dc2.jpg">
 												<label><strong>邮乐卡</strong><span>邮乐网专属购物卡，一卡通用完全打破域地域限制。是节日礼品，商务馈赠，企业福利的最好选择。</span></label></a>
 										</li>
 										<li class="dc3">
 											<a data-uspm="dc3" href="#" srcid="Homepage_nav_coupon_dc3" target="_blank">
-												<img src="img/dc3.jpg">
+												<img src="/thinkphp3.2.3/Public/img/dc3.jpg">
 												<label><strong>优惠券</strong><span>邮乐优惠券大合集,让您省钱、省心、省力。别犹豫了，赶快领券，释放你买买买的洪荒之力吧。</span></label></a>
 										</li>
 									</ul>
@@ -414,21 +414,21 @@
 									<ul>
 										<li class="mb1">
 											<a  href="#" target="_blank">
-												<img src="img/mb1.jpg">
+												<img src="/thinkphp3.2.3/Public/img/mb1.jpg">
 												<label>
 													<strong>邮乐网</strong>
 													<span>专业一站式B2C手机购物软件，海量商品，覆盖城乡，专享优惠，一手掌握，100%正品承诺。</span></label></a>
 										</li>
 										<li class="mb2">
 											<a  href="#"  target="_blank">
-												<img src="img/mb2.jpg">
+												<img src="/thinkphp3.2.3/Public/img/mb2.jpg">
 												<label>
 													<strong>邮生活</strong>
 													<span>移动生活，你是专家！ <br>充值缴费面面俱到，做全能大管家 <br>机票酒店天马行空，做任性旅行家 <br>网购淘货一手掌握，做品质生活家</span></label></a>
 										</li>
 										<li class="mb3">
 											<a  href="#"  target="_blank">
-												<img src="img/mb3.jpg">
+												<img src="/thinkphp3.2.3/Public/img/mb3.jpg">
 												<label>
 													<strong>邮乐金融</strong>
 													<span>让借钱从此变得简单、方便、不伤感情！ 免面签，免指纹，手机点几下，躺着就把钱借了！分期12个月，还款无压力。</span></label></a>
@@ -4488,8 +4488,8 @@
 						<div class="slide-items" style="height: 956px; margin-top: 0px;">
 							<ul class="mod-cheaplist active">
 								<li class="i1">
-									<a class="prod-img" href="#" target="_blank" title="特惠Ilife/艾莱芙婴幼儿手口柔护肤湿巾 宝宝外出便携湿纸巾 25抽4包">
-										<img src="img/topline3/521d84bd489856f2_-1x-1.jpg" alt="特惠Ilife/艾莱芙婴幼儿手口柔护肤湿巾 宝宝外出便携湿纸巾 25抽4包"></a>
+									<a class="prod-img" href="/thinkphp3.2.3/index.php/Home/Index/openlist" target="_blank" title="特惠Ilife/艾莱芙婴幼儿手口柔护肤湿巾 宝宝外出便携湿纸巾 25抽4包">
+										<img src="/thinkphp3.2.3/Public/img/topline3/521d84bd489856f2_-1x-1.jpg" alt="特惠Ilife/艾莱芙婴幼儿手口柔护肤湿巾 宝宝外出便携湿纸巾 25抽4包"></a>
 									<p class="prod-name">
 										<a href="#" target="_blank" title="特惠Ilife/艾莱芙婴幼儿手口柔护肤湿巾 宝宝外出便携湿纸巾 25抽4包">特惠Ilife/艾莱芙婴幼儿手口柔护肤湿巾 宝宝外出便携湿纸巾 25抽4包</a>
 									</p>
@@ -4499,8 +4499,8 @@
 									</p>
 								</li>
 								<li class="i2">
-									<a class="prod-img" href="#" target="_blank" title="包邮买一送一奥妙全自动洗衣液3kg深层洁净洗衣液">
-										<img src="img/topline3/0ca4199a048b3abf_-1x-1.jpg" alt="包邮买一送一奥妙全自动洗衣液3kg深层洁净洗衣液"></a>
+									<a class="prod-img" href="/thinkphp3.2.3/index.php/Home/Index/openlist" target="_blank" title="包邮买一送一奥妙全自动洗衣液3kg深层洁净洗衣液">
+										<img src="/thinkphp3.2.3/Public/img/topline3/0ca4199a048b3abf_-1x-1.jpg" alt="包邮买一送一奥妙全自动洗衣液3kg深层洁净洗衣液"></a>
 									<p class="prod-name">
 										<a href="#" target="_blank" title="包邮买一送一奥妙全自动洗衣液3kg深层洁净洗衣液">包邮买一送一奥妙全自动洗衣液3kg深层洁净洗衣液</a>
 									</p>
@@ -4510,8 +4510,8 @@
 									</p>
 								</li>
 								<li class="i3">
-									<a class="prod-img" href="#" target="_blank" title="【清仓疯抢】ABC日用纤薄干爽超柔感网面卫生巾A13 240mm*4包装*8片">
-										<img src="img/topline3/8d34b58190641499_-1x-1.jpg" alt="【清仓疯抢】ABC日用纤薄干爽超柔感网面卫生巾A13 240mm*4包装*8片"></a>
+									<a class="prod-img" href="/thinkphp3.2.3/index.php/Home/Index/openlist" target="_blank" title="【清仓疯抢】ABC日用纤薄干爽超柔感网面卫生巾A13 240mm*4包装*8片">
+										<img src="/thinkphp3.2.3/Public/img/topline3/8d34b58190641499_-1x-1.jpg" alt="【清仓疯抢】ABC日用纤薄干爽超柔感网面卫生巾A13 240mm*4包装*8片"></a>
 									<p class="prod-name">
 										<a href="#" target="_blank" title="【清仓疯抢】ABC日用纤薄干爽超柔感网面卫生巾A13 240mm*4包装*8片">【清仓疯抢】ABC日用纤薄干爽超柔感网面卫生巾A13 240mm*4包装*8片</a>
 									</p>
@@ -4521,8 +4521,8 @@
 									</p>
 								</li>
 								<li class="i4">
-									<a class="prod-img" href="#" target="_blank" title="和澄 澄大 阳澄湖六月黄大闸蟹现货 8只礼盒装">
-										<img src="img/topline3/e88096e4b89a5673_-1x-1.jpg" alt="和澄 澄大 阳澄湖六月黄大闸蟹现货 8只礼盒装"></a>
+									<a class="prod-img" href="/thinkphp3.2.3/index.php/Home/Index/openlist" target="_blank" title="和澄 澄大 阳澄湖六月黄大闸蟹现货 8只礼盒装">
+										<img src="/thinkphp3.2.3/Public/img/topline3/e88096e4b89a5673_-1x-1.jpg" alt="和澄 澄大 阳澄湖六月黄大闸蟹现货 8只礼盒装"></a>
 									<p class="prod-name">
 										<a href="#" target="_blank" title="和澄 澄大 阳澄湖六月黄大闸蟹现货 8只礼盒装">和澄 澄大 阳澄湖六月黄大闸蟹现货 8只礼盒装</a>
 									</p>
@@ -4534,32 +4534,32 @@
 							</ul>
 							<ul class="mod-freshlist" >
 								<li class="i1">
-									<a class="prod-img" href="#" target="_blank" title="gotrip女包达菲鸭可爱卡通双肩包女旅行背包拆卸式斜挎包" >
-										<img src="img/headmenu/109dbf65989b8f4f_-1x-1.jpg" alt="gotrip女包达菲鸭可爱卡通双肩包女旅行背包拆卸式斜挎包"></a>
+									<a class="prod-img" href="/thinkphp3.2.3/index.php/Home/Index/openlist" target="_blank" title="gotrip女包达菲鸭可爱卡通双肩包女旅行背包拆卸式斜挎包" >
+										<img src="/thinkphp3.2.3/Public/img/headmenu/109dbf65989b8f4f_-1x-1.jpg" alt="gotrip女包达菲鸭可爱卡通双肩包女旅行背包拆卸式斜挎包"></a>
 									<p class="prod-name">
 										<a href="#" target="_blank" title="gotrip女包达菲鸭可爱卡通双肩包女旅行背包拆卸式斜挎包" >gotrip女包达菲鸭可爱卡通双肩包女旅行背包拆卸式斜挎包</a>
 									</p>
 									<p class="prod-price"><span>¥<strong>168.00</strong></span><del>¥688.00</del></p>
 								</li>
 								<li class="i2">
-									<a class="prod-img" href="#" target="_blank" title="云南蒙自石榴5斤装" >
-										<img src="img/headmenu/4be486bab2b2925a_-1x-1.jpg" alt="云南蒙自石榴5斤装"></a>
+									<a class="prod-img" href="/thinkphp3.2.3/index.php/Home/Index/openlist" target="_blank" title="云南蒙自石榴5斤装" >
+										<img src="/thinkphp3.2.3/Public/img/headmenu/4be486bab2b2925a_-1x-1.jpg" alt="云南蒙自石榴5斤装"></a>
 									<p class="prod-name">
 										<a href="#" target="_blank" title="云南蒙自石榴5斤装" >云南蒙自石榴5斤装</a>
 									</p>
 									<p class="prod-price"><span>¥<strong>22.80</strong></span><del>¥50.00</del></p>
 								</li>
 								<li class="i3">
-									<a class="prod-img" href="#" target="_blank" title="美妙电子称 家用体重秤精准称重电子秤 人体秤体重称健康称MD-07" >
-										<img src="img/headmenu/7e280bb275bf3e12_-1x-1.jpg" alt="美妙电子称 家用体重秤精准称重电子秤 人体秤体重称健康称MD-07"></a>
+									<a class="prod-img" href="/thinkphp3.2.3/index.php/Home/Index/openlist" target="_blank" title="美妙电子称 家用体重秤精准称重电子秤 人体秤体重称健康称MD-07" >
+										<img src="/thinkphp3.2.3/Public/img/headmenu/7e280bb275bf3e12_-1x-1.jpg" alt="美妙电子称 家用体重秤精准称重电子秤 人体秤体重称健康称MD-07"></a>
 									<p class="prod-name">
 										<a href="#" target="_blank" title="美妙电子称 家用体重秤精准称重电子秤 人体秤体重称健康称MD-07" >美妙电子称 家用体重秤精准称重电子秤 人体秤体重称健康称MD-07</a>
 									</p>
 									<p class="prod-price"><span>¥<strong>39.00</strong></span><del>¥198.00</del></p>
 								</li>
 								<li class="i4">
-									<a class="prod-img" href="#" target="_blank" title="逸轩家纺   舒适枕芯一个" >
-										<img src="img/headmenu/312946439c4d4846_-1x-1.jpg" alt="逸轩家纺   舒适枕芯一个"></a>
+									<a class="prod-img" href="/thinkphp3.2.3/index.php/Home/Index/openlist" target="_blank" title="逸轩家纺   舒适枕芯一个" >
+										<img src="/thinkphp3.2.3/Public/img/headmenu/312946439c4d4846_-1x-1.jpg" alt="逸轩家纺   舒适枕芯一个"></a>
 									<p class="prod-name">
 										<a href="#" target="_blank" title="逸轩家纺   舒适枕芯一个" >逸轩家纺 舒适枕芯一个</a>
 									</p>
@@ -4622,13 +4622,13 @@
 											<p>
 												<strong>热门城市</strong>
 												<span class="citylist"><a data-areacode="210100">沈阳市</a><a data-areacode="610100">西安市</a><a data-areacode="230100">哈尔滨市</a><a data-areacode="520100">贵阳市</a><a data-areacode="450100">南宁市</a></span>
-												<a class="more" href="http://life.ule.com/?uspm=1.1.1_C2014.100018.more.1" target="_blank" data-uspm-id="1.1.1_C2014.100018.more.1">更多&gt;&gt;</a>
+												<a class="more" href="#" target="_blank" >更多&gt;&gt;</a>
 											</p>
 										</dd>
 
 									</dl>
 									<div class="jiaofei-buttons">
-										<a class="shui" href="javascript:void(0)" data-uspm-id="1.1.1_C2014.100018.shui.1">
+										<a class="shui" href="javascript:void(0)" ">
 											<span class="unsupport">缴水费</span></a>
 										<a class="dian" href="#" target="_blank"><span class="">缴电费</span></a>
 										<a class="ranq" href="#" target="_blank"><span class="unsupport">缴燃气费</span></a>
@@ -4644,25 +4644,24 @@
 						<ul class="slide-items">
 							<li>
 								<a href="#">
-									<img id="lbimg9" src="/thinkphp3.2.3/Public/{{imgsrc}}" />
+									<img src="/thinkphp3.2.3/Public/img/topline3/0813bb60149cbbcb_-1x-1.jpg" />
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img id="lbimg10" src="/thinkphp3.2.3/Public/{{imgsrc}}" />
+									<img src="/thinkphp3.2.3/Public/img/topline3/74cf46e48a380272_-1x-1.jpg" />
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img id="lbimg11" src="/thinkphp3.2.3/Public/{{item[0].imgsrc}}" />
+									<img src="/thinkphp3.2.3/Public/img/topline3/9bcf27988949a09d_-1x-1.jpg" />
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img id="lbimg12" src="/thinkphp3.2.3/Public/{{item[0].imgsrc}}" />
+									<img src="/thinkphp3.2.3/Public/img/topline3/eaa3e4630a95d71f_-1x-1.jpg" />
 								</a>
 							</li>
-							
 						</ul>
 						<div class="slide-button">
 							<a class="btn-prev"></a>
@@ -4688,7 +4687,7 @@
 							<ul class="slide-items">
 								<li>
 									<a href="#">
-										<img src="img/5b847f09bf975e4f_-1x-1.jpg" />
+										<img src="/thinkphp3.2.3/Public/img/5b847f09bf975e4f_-1x-1.jpg" />
 										<span class="btn-visit"></span>
 									</a>
 								</li>
@@ -4703,9 +4702,9 @@
 		</div>
 
 		<div class="topline3">
-			<a href="#"><img src="img/topline3/67eb1fd0b46e19d4_-1x-1.jpg" /></a>
-			<a href="#"><img src="img/topline3/62c238325eb4292b_-1x-1.jpg" /></a>
-			<a href="#"><img src="img/topline3/c4b56b48d39fa830_-1x-1.jpg" /></a>
+			<a href="#"><img src="/thinkphp3.2.3/Public/img/topline3/67eb1fd0b46e19d4_-1x-1.jpg" /></a>
+			<a href="#"><img src="/thinkphp3.2.3/Public/img/topline3/62c238325eb4292b_-1x-1.jpg" /></a>
+			<a href="#"><img src="/thinkphp3.2.3/Public/img/topline3/c4b56b48d39fa830_-1x-1.jpg" /></a>
 		</div>
 		<!--topline3结束-->
 		<!--moduel-->
@@ -4731,17 +4730,17 @@
 			<div class="grid-lmr">
 				<div class="col-left">
 					<a href="#">
-						<img src="img/cb6a89d47c2478a5_-1x-1.jpg" />
+						<img src="/thinkphp3.2.3/Public/img/cb6a89d47c2478a5_-1x-1.jpg" />
 					</a>
 				</div>
 				<div class="col-main">
 					<div class="piclist-c2">
 						<a href="#" class="pic1">
-							<img src="img/jianguo1.jpg" />
+							<img src="/thinkphp3.2.3/Public/img/jianguo1.jpg" />
 							<div></div>
 						</a>
 						<a href="#" class="pic2">
-							<img src="img/jianguo2.jpg" />
+							<img src="/thinkphp3.2.3/Public/img/jianguo2.jpg" />
 							<div></div>
 						</a>
 					</div>
@@ -4749,7 +4748,7 @@
 						<ul>
 							<li class="i1">
 								<a class="prod-img" href="#" target="_blank" title="【光明】莫斯利安酸奶 ">
-									<img src="img/d5b35ea2064d219c_-1x-1.jpg">
+									<img src="/thinkphp3.2.3/Public/img/d5b35ea2064d219c_-1x-1.jpg">
 								</a>
 								<p class="prod-name">
 									<a data-uspm="pd11" href="#" target="_blank">【光明】莫斯利安酸奶 钻石装 200g*12瓶/提 保质期到16年11月18日</a>
@@ -4761,7 +4760,7 @@
 
 							<li class="i2">
 								<a class="prod-img" href="#" target="_blank" title="【光明】莫斯利安酸奶 ">
-									<img src="img/c8503245dc14ad88_p800x800_130x130.jpg">
+									<img src="/thinkphp3.2.3/Public/img/c8503245dc14ad88_p800x800_130x130.jpg">
 								</a>
 								<p class="prod-name">
 									<a data-uspm="pd11" href="#" target="_blank">【光明】莫斯利安酸奶 钻石装 200g*12瓶/提 保质期到16年11月18日</a>
@@ -4773,7 +4772,7 @@
 							</li>
 							<li class="i3">
 								<a class="prod-img" href="#" target="_blank" title="【光明】莫斯利安酸奶 ">
-									<img src="img/d34659a49e29eb81_p1000x1000_130x130.jpg">
+									<img src="/thinkphp3.2.3/Public/img/d34659a49e29eb81_p1000x1000_130x130.jpg">
 								</a>
 								<p class="prod-name">
 									<a data-uspm="pd11" href="#" target="_blank">【光明】莫斯利安酸奶 钻石装 200g*12瓶/提 保质期到16年11月18日</a>
@@ -4785,7 +4784,7 @@
 							</li>
 							<li class="i4">
 								<a class="prod-img" href="#" target="_blank" title="【光明】莫斯利安酸奶 ">
-									<img src="img/51e444cd5ac84620_p800x800_130x130.jpg">
+									<img src="/thinkphp3.2.3/Public/img/51e444cd5ac84620_p800x800_130x130.jpg">
 								</a>
 								<p class="prod-name">
 									<a data-uspm="pd11" href="#" target="_blank">【光明】莫斯利安酸奶 钻石装 200g*12瓶/提 保质期到16年11月18日</a>
@@ -4797,7 +4796,7 @@
 							</li>
 							<li class="i5">
 								<a class="prod-img" href="#" target="_blank" title="【光明】莫斯利安酸奶 ">
-									<img src="img/238f4b4f90e56d47_p700x700_130x130.jpg">
+									<img src="/thinkphp3.2.3/Public/img/238f4b4f90e56d47_p700x700_130x130.jpg">
 								</a>
 								<p class="prod-name">
 									<a data-uspm="pd11" href="#" target="_blank">【光明】莫斯利安酸奶 钻石装 200g*12瓶/提 保质期到16年11月18日</a>
@@ -4814,7 +4813,7 @@
 					<div class="prodlist-r3">
 						<ul>
 							<li class="i1">
-								<a href="#" class="prod-img"><img src="img/0dafa2eeff874a4b_-1x-1.jpg" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/0dafa2eeff874a4b_-1x-1.jpg" /></a>
 								<p class="prod-name">
 									<a href="#">吾悦 东北黑木耳 特级黄松甸木耳 野生秋木耳干货 510克吾悦 东北黑木耳 特级黄松甸木耳 野生</a>
 								</p>
@@ -4824,7 +4823,7 @@
 								</p>
 							</li>
 							<li class="i2">
-								<a href="#" class="prod-img"><img src="img/37a47e507d7cda35_p790x587_100x100.jpg" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/37a47e507d7cda35_p790x587_100x100.jpg" /></a>
 								<p class="prod-name">
 									<a href="#">吾悦 东北黑木耳 特级黄松甸木耳 野生秋木耳干货 510克吾悦 东北黑木耳 特级黄松甸木耳 野生</a>
 								</p>
@@ -4834,7 +4833,7 @@
 								</p>
 							</li>
 							<li class="i3">
-								<a href="#" class="prod-img"><img src="img/223a3d53f38962db_p600x600_100x100.jpg" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/223a3d53f38962db_p600x600_100x100.jpg" /></a>
 								<p class="prod-name">
 									<a href="#">吾悦 东北黑木耳 特级黄松甸木耳 野生秋木耳干货 510克吾悦 东北黑木耳 特级黄松甸木耳 野生</a>
 								</p>
@@ -4873,7 +4872,7 @@
 			<div class="grid-lmr">
 				<div class="col-left">
 					<a href="#">
-						<img src="img/0a9e9e441a337f6b_-1x-1.jpg" />
+						<img src="/thinkphp3.2.3/Public/img/index/4c0391eeee0cb5d7_-1x-1.jpg" />
 					</a>
 				</div>
 				<div class="col-main">
@@ -4881,7 +4880,7 @@
 						<ul>
 							<li>
 								<a class="prod-img" href="#">
-									<img src="img/img1/28bd3ff6f54f1a1a_-1x-1.jpg" alt="" />
+									<img src="/thinkphp3.2.3/Public/img/index/10/1.jpg" alt="" />
 								</a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
@@ -4891,7 +4890,8 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/42a78f3b401b45e3_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img">
+									<img src="/thinkphp3.2.3/Public/img/index/10/2.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -4900,7 +4900,8 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/6a82f8ce6914fce8_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img">
+									<img src="/thinkphp3.2.3/Public/img/index/10/3.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -4909,7 +4910,8 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/881b9e864a548c93_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img">
+									<img src="/thinkphp3.2.3/Public/img/index/10/4.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -4918,7 +4920,8 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/bdda93f24e2f2bd9_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img">
+									<img src="/thinkphp3.2.3/Public/img/index/10/5.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -4927,7 +4930,8 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/28bd3ff6f54f1a1a_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img">
+									<img src="/thinkphp3.2.3/Public/img/index/10/6.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -4936,7 +4940,8 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/42a78f3b401b45e3_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img">
+									<img src="/thinkphp3.2.3/Public/img/index/10/7.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -4945,7 +4950,8 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/881b9e864a548c93_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img">
+									<img src="/thinkphp3.2.3/Public/img/index/10/8.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -4962,7 +4968,7 @@
 						<ul>
 							<li class="i1">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/10/2-1.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -4972,7 +4978,7 @@
 							</li>
 							<li class="i2">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/10/2-2.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -4982,7 +4988,7 @@
 							</li>
 							<li class="i3">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/10/2-3.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -4992,7 +4998,7 @@
 							</li>
 							<li class="i4">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/10/2-4.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -5002,7 +5008,7 @@
 							</li>
 							<li class="i5">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/10/2-5.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -5020,7 +5026,7 @@
 		<!--top-line-->
 		<div class="topline">
 			<a href="#">
-				<img src="img/164b8aa6e4b8d547_-1x-1.jpg" alt="" />
+				<img src="/thinkphp3.2.3/Public/img/164b8aa6e4b8d547_-1x-1.jpg" alt="" />
 			</a>
 		</div>
 		<!--top-line-->
@@ -5048,7 +5054,7 @@
 			<div class="grid-lmr">
 				<div class="col-left">
 					<a href="#">
-						<img src="img/0a9e9e441a337f6b_-1x-1.jpg" />
+						<img src="/thinkphp3.2.3/Public/img/index/7e9c59ed9fdfc8dd_-1x-1.jpg" />
 					</a>
 				</div>
 				<div class="col-main">
@@ -5056,7 +5062,7 @@
 						<ul>
 							<li>
 								<a class="prod-img" href="#">
-									<img src="img/img1/28bd3ff6f54f1a1a_-1x-1.jpg" alt="" />
+									<img src="/thinkphp3.2.3/Public/img/index/9/1.jpg" alt="" />
 								</a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Midea/美的 电水壶 MK-HP1703 1.7L热水壶 不锈钢内壁 按键恒温</a>
@@ -5066,7 +5072,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/42a78f3b401b45e3_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/index/9/2.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -5075,7 +5081,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/6a82f8ce6914fce8_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/index/9/3.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -5084,7 +5090,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/881b9e864a548c93_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/index/9/4.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -5093,7 +5099,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/bdda93f24e2f2bd9_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/index/9/5.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -5102,7 +5108,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/28bd3ff6f54f1a1a_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/index/9/6.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -5111,7 +5117,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/42a78f3b401b45e3_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/index/9/7.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -5120,7 +5126,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/881b9e864a548c93_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/index/9/8.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -5137,7 +5143,7 @@
 						<ul>
 							<li class="i1">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/9/2-1.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -5147,7 +5153,7 @@
 							</li>
 							<li class="i2">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/9/2-2.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -5157,7 +5163,7 @@
 							</li>
 							<li class="i3">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/9/2-3.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -5167,7 +5173,7 @@
 							</li>
 							<li class="i4">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/9/2-4.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -5177,7 +5183,7 @@
 							</li>
 							<li class="i5">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/9/2-5.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -5197,7 +5203,7 @@
 		<div class="mod-3 channel louceng">
 			<div class="title">
 				<h3>
-					<a class="img " href="#">
+					<a class="img" href="#">
 						<strong class="color" style="color:#ef3c9a;">美妆洗护</strong>
 						<span>防晒补水  带你去探索</span>
 					</a>
@@ -5216,21 +5222,21 @@
 			<div class="grid-lmr">
 				<div class="col-left">
 					<a href="#">
-						<img src="img/a4e8ca9633913bfe_-1x-1.jpg" />
+						<img src="/thinkphp3.2.3/Public/img/index/7601cb6b49d1a27d_-1x-1.jpg" />
 					</a>
 				</div>
 				<div class="col-main">
 					<div class="mod-piclist-c3 mod-piclist-c3-1">
 						<a href="#" class="i1">
-							<img src="img/9eebaeb48a4b3d94_-1x-1.jpg" />
+							<img src="/thinkphp3.2.3/Public/img/index/8/1.jpg" />
 							<div></div>
 						</a>
 						<a href="#" class="i2">
-							<img src="img/1e61f1f4a178b114_-1x-1.jpg" />
+							<img src="/thinkphp3.2.3/Public/img/index/8/3.jpg" />
 							<div></div>
 						</a>
 						<a href="#" class="i3">
-							<img src="img/6cc14c341339a4ef_-1x-1.jpg" />
+							<img src="/thinkphp3.2.3/Public/img/index/8/2.jpg" />
 							<div></div>
 						</a>
 					</div>
@@ -5238,7 +5244,7 @@
 						<ul>
 							<li>
 								<a class="img" href="#">
-									<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+									<img src="/thinkphp3.2.3/Public/img/index/8/4.jpg" alt="" />
 								</a>
 								<p class="prod-name">
 									<a href="#" class="cowhite">尼维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5248,7 +5254,7 @@
 							<li>
 								<a href="#">
 									<a class="img" href="#">
-										<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+										<img src="/thinkphp3.2.3/Public/img/index/8/5.jpg" alt="" />
 									</a>
 									<p class="prod-name">
 										<a href="#" class="cowhite">维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5259,7 +5265,7 @@
 							<li>
 								<a href="#">
 									<a class="img" href="#">
-										<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+										<img src="/thinkphp3.2.3/Public/img/index/8/6.jpg" alt="" />
 									</a>
 									<p class="prod-name">
 										<a href="#" class="cowhite">维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5270,7 +5276,7 @@
 							<li>
 								<a href="#">
 									<a class="img" href="#">
-										<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+										<img src="/thinkphp3.2.3/Public/img/index/8/7.jpg" alt="" />
 									</a>
 									<p class="prod-name">
 										<a href="#" class="cowhite">维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5287,21 +5293,21 @@
 							<ul class="slide-items slid-ul1">
 								<li>
 									<a href="#">
-										<img src="img/littlelinbo/288c3faf719db7b4_-1x-1.jpg" />
+										<img src="/thinkphp3.2.3/Public/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg" />
 										<strong>韩束</strong>
 										<span>金盏花润乳液30ml</span>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="img/littlelinbo/7442aa895bd55efd_-1x-1.jpg" />
+										<img src="/thinkphp3.2.3/Public/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg" />
 										<strong>甜蜜爱人香水</strong>
 										<span>持久淡香30ml</span>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="img/littlelinbo/45249d5b1990debb_-1x-1.jpg" />
+										<img src="/thinkphp3.2.3/Public/img/littlelinbo/45249d5b1990debb_-1x-1.jpg" />
 										<strong>曼秀雷敦</strong>
 										<span>控油清爽50g</span>
 									</a>
@@ -5312,15 +5318,15 @@
 						</div>
 						<div class="slide-index slide-index-1">
 							<a href="#" class="active">
-								<img src="img/littlelinbo/288c3faf719db7b4_-1x-1.jpg" />
+								<img src="/thinkphp3.2.3/Public/img/littlelinbo/288c3faf719db7b4_-1x-1.jpg" />
 								<i></i>
 							</a>
 							<a href="#">
-								<img src="img/littlelinbo/7442aa895bd55efd_-1x-1.jpg" />
+								<img src="/thinkphp3.2.3/Public/img/littlelinbo/7442aa895bd55efd_-1x-1.jpg" />
 								<i></i>
 							</a>
 							<a href="#">
-								<img src="img/littlelinbo/45249d5b1990debb_-1x-1.jpg" />
+								<img src="/thinkphp3.2.3/Public/img/littlelinbo/45249d5b1990debb_-1x-1.jpg" />
 								<i></i>
 							</a>
 						</div>
@@ -5329,22 +5335,22 @@
 					<div class="mod-brandlist">
 						<ul>
 							<li>
-								<a href="#"><img src="img/logo/844477da2bf439e3_-1x-1.jpg" alt="" /> <span>兰芝</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/844477da2bf439e3_-1x-1.jpg" alt="" /> <span>兰芝</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/ae9034568be39d59_-1x-1.jpg" alt="" /><span>曼秀雷敦</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/ae9034568be39d59_-1x-1.jpg" alt="" /><span>曼秀雷敦</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/9e0492f828d2ecbf_-1x-1.jpg" alt="" /><span>阿芙</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/9e0492f828d2ecbf_-1x-1.jpg" alt="" /><span>阿芙</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/606283c4d379c038_-1x-1.jpg" alt="" /><span>美宝莲</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/606283c4d379c038_-1x-1.jpg" alt="" /><span>美宝莲</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/d2923afea3dd264a_-1x-1.jpg" alt="" /><span>欧莱雅</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/d2923afea3dd264a_-1x-1.jpg" alt="" /><span>欧莱雅</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/b08bb94bce36f26d_-1x-1.jpg" alt="" /><span>倍力乐</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/b08bb94bce36f26d_-1x-1.jpg" alt="" /><span>倍力乐</span></a>
 							</li>
 						</ul>
 					</div>
@@ -5378,21 +5384,21 @@
 			<div class="grid-lmr">
 				<div class="col-left">
 					<a href="#">
-						<img src="img/a4e8ca9633913bfe_-1x-1.jpg" />
+						<img src="/thinkphp3.2.3/Public/img/index/55363a2938d42efa_-1x-1.jpg" />
 					</a>
 				</div>
 				<div class="col-main">
 					<div class="mod-piclist-c3 mod-piclist-c3-2">
 						<a href="#" class="i1">
-							<img src="img/9eebaeb48a4b3d94_-1x-1.jpg" />
+							<img src="/thinkphp3.2.3/Public/img/index/7/1.jpg" />
 							<div></div>
 						</a>
 						<a href="#" class="i2">
-							<img src="img/1e61f1f4a178b114_-1x-1.jpg" />
+							<img src="/thinkphp3.2.3/Public/img/index/7/2.jpg" />
 							<div></div>
 						</a>
 						<a href="#" class="i3">
-							<img src="img/6cc14c341339a4ef_-1x-1.jpg" />
+							<img src="/thinkphp3.2.3/Public/img/index/7/3.jpg" />
 							<div></div>
 						</a>
 					</div>
@@ -5400,7 +5406,7 @@
 						<ul>
 							<li>
 								<a class="img" href="#">
-									<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+									<img src="/thinkphp3.2.3/Public/img/index/7/4.jpg" alt="" />
 								</a>
 								<p class="prod-name">
 									<a href="#" class="cowhite">尼维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5410,7 +5416,7 @@
 							<li>
 								<a href="#">
 									<a class="img" href="#">
-										<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+										<img src="/thinkphp3.2.3/Public/img/index/7/5.jpg" alt="" />
 									</a>
 									<p class="prod-name">
 										<a href="#" class="cowhite">维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5421,7 +5427,7 @@
 							<li>
 								<a href="#">
 									<a class="img" href="#">
-										<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+										<img src="/thinkphp3.2.3/Public/img/index/7/6.jpg" alt="" />
 									</a>
 									<p class="prod-name">
 										<a href="#" class="cowhite">维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5432,7 +5438,7 @@
 							<li>
 								<a href="#">
 									<a class="img" href="#">
-										<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+										<img src="/thinkphp3.2.3/Public/img/index/7/7.jpg" alt="" />
 									</a>
 									<p class="prod-name">
 										<a href="#" class="cowhite">维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5449,7 +5455,7 @@
 						<ul>
 							<li>
 								<a href="#">
-									<img src="img/logoshop/6037cc7194ce19a7_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/7/8.jpg" />
 								</a>
 								<p class="prod-name">
 									<a data-uspm="pd22" href="#" target="_blank">俞兆林 加厚抗风型保暖内衣套装女士套装YZLNHFSF0019</a>
@@ -5460,7 +5466,7 @@
 							</li>
 							<li>
 								<a href="#">
-									<img src="img/logoshop/26d13e9c4286b51c_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/7/9.jpg" />
 								</a>
 								<p class="prod-name">
 									<a data-uspm="pd22" href="#" target="_blank">俞兆林 加厚抗风型保暖内衣套装女士套装YZLNHFSF0019</a>
@@ -5471,7 +5477,7 @@
 							</li>
 							<li class="noborder">
 								<a href="#">
-									<img src="img/logoshop/57ca7f1e3437cb85_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/7/10.jpg" />
 								</a>
 								<p class="prod-name">
 									<a data-uspm="pd22" href="#" target="_blank">俞兆林 加厚抗风型保暖内衣套装女士套装YZLNHFSF0019</a>
@@ -5485,22 +5491,22 @@
 					<div class="mod-brandlist">
 						<ul>
 							<li>
-								<a href="#"><img src="img/logo/844477da2bf439e3_-1x-1.jpg" alt="" /> <span>兰芝</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/844477da2bf439e3_-1x-1.jpg" alt="" /> <span>兰芝</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/ae9034568be39d59_-1x-1.jpg" alt="" /><span>曼秀雷敦</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/ae9034568be39d59_-1x-1.jpg" alt="" /><span>曼秀雷敦</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/9e0492f828d2ecbf_-1x-1.jpg" alt="" /><span>阿芙</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/9e0492f828d2ecbf_-1x-1.jpg" alt="" /><span>阿芙</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/606283c4d379c038_-1x-1.jpg" alt="" /><span>美宝莲</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/606283c4d379c038_-1x-1.jpg" alt="" /><span>美宝莲</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/d2923afea3dd264a_-1x-1.jpg" alt="" /><span>欧莱雅</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/d2923afea3dd264a_-1x-1.jpg" alt="" /><span>欧莱雅</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/b08bb94bce36f26d_-1x-1.jpg" alt="" /><span>倍力乐</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/b08bb94bce36f26d_-1x-1.jpg" alt="" /><span>倍力乐</span></a>
 							</li>
 						</ul>
 					</div>
@@ -5510,7 +5516,7 @@
 		</div>
 		<!--moduel5-->
 		<div class="topline">
-			<a href="#"><img src="img/360106cf34220bfd_-1x-1.jpg" alt="" /></a>
+			<a href="#"><img src="/thinkphp3.2.3/Public/img/360106cf34220bfd_-1x-1.jpg" alt="" /></a>
 		</div>
 		<!--moduel5-->
 		<!--title-->
@@ -5536,21 +5542,21 @@
 			<div class="grid-lmr">
 				<div class="col-left">
 					<a href="#">
-						<img src="img/a4e8ca9633913bfe_-1x-1.jpg" />
+						<img src="/thinkphp3.2.3/Public/img/index/24a4687891f211a3_-1x-1.jpg" />
 					</a>
 				</div>
 				<div class="col-main">
 					<div class="mod-piclist-c3 mod-piclist-c3-3">
 						<a href="#" class="i1">
-							<img src="img/9eebaeb48a4b3d94_-1x-1.jpg" />
+							<img src="/thinkphp3.2.3/Public/img/index/6/1.jpg" />
 							<div></div>
 						</a>
 						<a href="#" class="i2">
-							<img src="img/1e61f1f4a178b114_-1x-1.jpg" />
+							<img src="/thinkphp3.2.3/Public/img/index/6/2.jpg" />
 							<div></div>
 						</a>
 						<a href="#" class="i3">
-							<img src="img/6cc14c341339a4ef_-1x-1.jpg" />
+							<img src="/thinkphp3.2.3/Public/img/index/6/3.jpg" />
 							<div></div>
 						</a>
 					</div>
@@ -5558,7 +5564,7 @@
 						<ul>
 							<li>
 								<a class="img" href="#">
-									<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+									<img src="/thinkphp3.2.3/Public/img/index/6/4.jpg" alt="" />
 								</a>
 								<p class="prod-name">
 									<a href="#" class="cowhite">尼维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5568,7 +5574,7 @@
 							<li>
 								<a href="#">
 									<a class="img" href="#">
-										<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+										<img src="/thinkphp3.2.3/Public/img/index/6/5.jpg" alt="" />
 									</a>
 									<p class="prod-name">
 										<a href="#" class="cowhite">维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5579,7 +5585,7 @@
 							<li>
 								<a href="#">
 									<a class="img" href="#">
-										<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+										<img src="/thinkphp3.2.3/Public/img/index/6/6.jpg" alt="" />
 									</a>
 									<p class="prod-name">
 										<a href="#" class="cowhite">维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5590,7 +5596,7 @@
 							<li>
 								<a href="#">
 									<a class="img" href="#">
-										<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+										<img src="/thinkphp3.2.3/Public/img/index/6/7.jpg" alt="" />
 									</a>
 									<p class="prod-name">
 										<a href="#" class="cowhite">维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5607,7 +5613,7 @@
 						<ul>
 							<li>
 								<a href="#">
-									<img src="img/logoshop/6037cc7194ce19a7_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/6/8.jpg" />
 								</a>
 								<p class="prod-name">
 									<a data-uspm="pd22" href="#" target="_blank">俞兆林 加厚抗风型保暖内衣套装女士套装YZLNHFSF0019</a>
@@ -5618,7 +5624,7 @@
 							</li>
 							<li>
 								<a href="#">
-									<img src="img/logoshop/26d13e9c4286b51c_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/6/9.jpg" />
 								</a>
 								<p class="prod-name">
 									<a data-uspm="pd22" href="#" target="_blank">俞兆林 加厚抗风型保暖内衣套装女士套装YZLNHFSF0019</a>
@@ -5629,7 +5635,7 @@
 							</li>
 							<li class="noborder">
 								<a href="#">
-									<img src="img/logoshop/57ca7f1e3437cb85_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/6/10.jpg" />
 								</a>
 								<p class="prod-name">
 									<a data-uspm="pd22" href="#" target="_blank">俞兆林 加厚抗风型保暖内衣套装女士套装YZLNHFSF0019</a>
@@ -5643,22 +5649,22 @@
 					<div class="mod-brandlist">
 						<ul>
 							<li>
-								<a href="#"><img src="img/logo/844477da2bf439e3_-1x-1.jpg" alt="" /> <span>兰芝</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/844477da2bf439e3_-1x-1.jpg" alt="" /> <span>兰芝</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/ae9034568be39d59_-1x-1.jpg" alt="" /><span>曼秀雷敦</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/ae9034568be39d59_-1x-1.jpg" alt="" /><span>曼秀雷敦</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/9e0492f828d2ecbf_-1x-1.jpg" alt="" /><span>阿芙</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/9e0492f828d2ecbf_-1x-1.jpg" alt="" /><span>阿芙</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/606283c4d379c038_-1x-1.jpg" alt="" /><span>美宝莲</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/606283c4d379c038_-1x-1.jpg" alt="" /><span>美宝莲</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/d2923afea3dd264a_-1x-1.jpg" alt="" /><span>欧莱雅</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/d2923afea3dd264a_-1x-1.jpg" alt="" /><span>欧莱雅</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/b08bb94bce36f26d_-1x-1.jpg" alt="" /><span>倍力乐</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/b08bb94bce36f26d_-1x-1.jpg" alt="" /><span>倍力乐</span></a>
 							</li>
 						</ul>
 					</div>
@@ -5692,21 +5698,21 @@
 			<div class="grid-lmr">
 				<div class="col-left">
 					<a href="#">
-						<img src="img/a4e8ca9633913bfe_-1x-1.jpg" />
+						<img src="/thinkphp3.2.3/Public/img/index/345f8825d1d3bc05_-1x-1.jpg" />
 					</a>
 				</div>
 				<div class="col-main">
 					<div class="mod-piclist-c3 mod-piclist-c3-1">
 						<a href="#" class="i1">
-							<img src="img/9eebaeb48a4b3d94_-1x-1.jpg" />
+							<img src="/thinkphp3.2.3/Public/img/index/5/1.jpg" />
 							<div></div>
 						</a>
 						<a href="#" class="i2">
-							<img src="img/1e61f1f4a178b114_-1x-1.jpg" />
+							<img src="/thinkphp3.2.3/Public/img/index/5/2.jpg" />
 							<div></div>
 						</a>
 						<a href="#" class="i3">
-							<img src="img/6cc14c341339a4ef_-1x-1.jpg" />
+							<img src="/thinkphp3.2.3/Public/img/index/5/3.jpg" />
 							<div></div>
 						</a>
 					</div>
@@ -5714,7 +5720,7 @@
 						<ul>
 							<li>
 								<a class="img" href="#">
-									<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+									<img src="/thinkphp3.2.3/Public/img/index/5/4.jpg" alt="" />
 								</a>
 								<p class="prod-name">
 									<a href="#" class="cowhite">尼维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5724,7 +5730,7 @@
 							<li>
 								<a href="#">
 									<a class="img" href="#">
-										<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+										<img src="/thinkphp3.2.3/Public/img/index/5/5.jpg" alt="" />
 									</a>
 									<p class="prod-name">
 										<a href="#" class="cowhite">维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5735,7 +5741,7 @@
 							<li>
 								<a href="#">
 									<a class="img" href="#">
-										<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+										<img src="/thinkphp3.2.3/Public/img/index/5/6.jpg" alt="" />
 									</a>
 									<p class="prod-name">
 										<a href="#" class="cowhite">维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5746,7 +5752,7 @@
 							<li>
 								<a href="#">
 									<a class="img" href="#">
-										<img src="img/74adbbb7f85ec122_-1x-1.jpg" alt="" />
+										<img src="/thinkphp3.2.3/Public/img/index/5/7.jpg" alt="" />
 									</a>
 									<p class="prod-name">
 										<a href="#" class="cowhite">维雅男士控油冰极矿物炭洁面泥100g+50克套装 妮维雅盒套盒 极酷冰爽</a>
@@ -5763,21 +5769,21 @@
 							<ul class="slide-items slid-ul2">
 								<li>
 									<a href="#">
-										<img src="img/littlelinbo/288c3faf719db7b4_-1x-1.jpg" />
+										<img src="/thinkphp3.2.3/Public/img/index/5/8.jpg" />
 										<strong>韩束</strong>
 										<span>金盏花润乳液30ml</span>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="img/littlelinbo/7442aa895bd55efd_-1x-1.jpg" />
+										<img src="/thinkphp3.2.3/Public/img/index/5/9.jpg" />
 										<strong>甜蜜爱人香水</strong>
 										<span>持久淡香30ml</span>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<img src="img/littlelinbo/45249d5b1990debb_-1x-1.jpg" />
+										<img src="/thinkphp3.2.3/Public/img/index/5/10.jpg" />
 										<strong>曼秀雷敦</strong>
 										<span>控油清爽50g</span>
 									</a>
@@ -5788,15 +5794,15 @@
 						</div>
 						<div class="slide-index slide-index-2">
 							<a href="#" class="active">
-								<img src="img/littlelinbo/288c3faf719db7b4_-1x-1.jpg" />
+								<img src="/thinkphp3.2.3/Public/img/index/5/8.jpg" />
 								<i></i>
 							</a>
 							<a href="#">
-								<img src="img/littlelinbo/7442aa895bd55efd_-1x-1.jpg" />
+								<img src="/thinkphp3.2.3/Public/img/index/5/9.jpg" />
 								<i></i>
 							</a>
 							<a href="#">
-								<img src="img/littlelinbo/45249d5b1990debb_-1x-1.jpg" />
+								<img src="/thinkphp3.2.3/Public/img/index/5/10.jpg" />
 								<i></i>
 							</a>
 						</div>
@@ -5804,22 +5810,22 @@
 					<div class="mod-brandlist">
 						<ul>
 							<li>
-								<a href="#"><img src="img/logo/844477da2bf439e3_-1x-1.jpg" alt="" /> <span>兰芝</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/844477da2bf439e3_-1x-1.jpg" alt="" /> <span>兰芝</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/ae9034568be39d59_-1x-1.jpg" alt="" /><span>曼秀雷敦</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/ae9034568be39d59_-1x-1.jpg" alt="" /><span>曼秀雷敦</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/9e0492f828d2ecbf_-1x-1.jpg" alt="" /><span>阿芙</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/9e0492f828d2ecbf_-1x-1.jpg" alt="" /><span>阿芙</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/606283c4d379c038_-1x-1.jpg" alt="" /><span>美宝莲</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/606283c4d379c038_-1x-1.jpg" alt="" /><span>美宝莲</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/d2923afea3dd264a_-1x-1.jpg" alt="" /><span>欧莱雅</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/d2923afea3dd264a_-1x-1.jpg" alt="" /><span>欧莱雅</span></a>
 							</li>
 							<li>
-								<a href="#"><img src="img/logo/b08bb94bce36f26d_-1x-1.jpg" alt="" /><span>倍力乐</span></a>
+								<a href="#"><img src="/thinkphp3.2.3/Public/img/logo/b08bb94bce36f26d_-1x-1.jpg" alt="" /><span>倍力乐</span></a>
 							</li>
 						</ul>
 					</div>
@@ -5834,7 +5840,7 @@
 				<h3>
 					<a class="img " href="#">
 						<strong class="color" style="color:#f75d59;">母婴玩具</strong>
-						<span>美的电饭煲  蒸煮烹饪神器</span>
+						<span>母婴玩具婴幼儿奶粉 托起宝宝健康的明天</span>
 					</a>
 				</h3>
 				<p class="list">
@@ -5851,7 +5857,7 @@
 			<div class="grid-lmr">
 				<div class="col-left">
 					<a href="#">
-						<img src="img/0a9e9e441a337f6b_-1x-1.jpg" />
+						<img src="/thinkphp3.2.3/Public/img/index/cc83782ae207edf4_-1x-1.jpg" />
 					</a>
 				</div>
 				<div class="col-main">
@@ -5859,7 +5865,7 @@
 						<ul>
 							<li>
 								<a class="prod-img" href="#">
-									<img src="img/img1/28bd3ff6f54f1a1a_-1x-1.jpg" alt="" />
+									<img src="/thinkphp3.2.3/Public/img/index/4/1.jpg" alt="" />
 								</a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Midea/美的 电水壶 MK-HP1703 1.7L热水壶 不锈钢内壁 按键恒温</a>
@@ -5869,7 +5875,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/42a78f3b401b45e3_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/index/4/2.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -5878,7 +5884,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/6a82f8ce6914fce8_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/index/4/3.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -5887,7 +5893,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/881b9e864a548c93_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/index/4/4.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -5896,7 +5902,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/bdda93f24e2f2bd9_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/index/4/5.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -5905,7 +5911,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/28bd3ff6f54f1a1a_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/index/4/6.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -5914,7 +5920,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/42a78f3b401b45e3_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/index/4/7.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -5923,7 +5929,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="prod-img"><img src="img/img1/881b9e864a548c93_-1x-1.jpg" alt="" /></a>
+								<a href="#" class="prod-img"><img src="/thinkphp3.2.3/Public/img/index/4/8.jpg" alt="" /></a>
 								<p class="prod-name">
 									<a href="#" target="_blank" class="cowhite">Le/乐视 乐2（X620）32GB 移动联通电信4G手机 双卡双待(金色)</a>
 								</p>
@@ -5940,7 +5946,7 @@
 						<ul>
 							<li class="i1">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/4/9.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -5950,7 +5956,7 @@
 							</li>
 							<li class="i2">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/4/10.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -5960,7 +5966,7 @@
 							</li>
 							<li class="i3">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/4/11.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -5970,7 +5976,7 @@
 							</li>
 							<li class="i4">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/4/12.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -5980,7 +5986,7 @@
 							</li>
 							<li class="i5">
 								<a href="#" class="prod-img">
-									<img src="img/img1/d9945af94486a6bd_m.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/4/13.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">亿捷移动电源P5200R</a>
@@ -5996,7 +6002,7 @@
 		</div>
 		<!--moduel3-->
 		<div class="topline">
-			<a href="#"><img src="img/19864270404744f3_-1x-1.jpg" alt="" /></a>
+			<a href="#"><img src="/thinkphp3.2.3/Public/img/19864270404744f3_-1x-1.jpg" alt="" /></a>
 		</div>
 		<!--moduel6-->
 		<div class="mod-6 channel louceng">
@@ -6021,7 +6027,7 @@
 			<div class="grid-lmr">
 				<div class="col-left">
 					<a href="#">
-						<img src="img/3188146e6ae02c80_-1x-1.jpg" />
+						<img src="/thinkphp3.2.3/Public/img/index/3188146e6ae02c80_-1x-1.jpg" />
 					</a>
 				</div>
 				<div class="col-main">
@@ -6029,7 +6035,7 @@
 						<ul>
 							<li>
 								<a href="#" class="prod-img">
-									<img src="img/11.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/3/1.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 50cm*55cm*0.01mm*10卷 E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 </a>
@@ -6040,7 +6046,7 @@
 							</li>
 							<li>
 								<a href="#" class="prod-img">
-									<img src="img/11.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/3/2.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 50cm*55cm*0.01mm*10卷 E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 </a>
@@ -6051,7 +6057,7 @@
 							</li>
 							<li>
 								<a href="#" class="prod-img">
-									<img src="img/11.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/3/3.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 50cm*55cm*0.01mm*10卷 E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 </a>
@@ -6062,7 +6068,7 @@
 							</li>
 							<li>
 								<a href="#" class="prod-img">
-									<img src="img/11.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/3/4.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 50cm*55cm*0.01mm*10卷 E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 </a>
@@ -6079,7 +6085,7 @@
 						<ul>
 							<li class="i1">
 								<a href="#" class="prod-img">
-									<img src="img/r2-1.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/3/5.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">超能洗衣液植萃低泡2.5kg赠送1kg超能洗衣液</a>
@@ -6090,7 +6096,7 @@
 							</li>
 							<li class="i2">
 								<a href="#" class="prod-img">
-									<img src="img/r2-1.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/3/6.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">超能洗衣液植萃低泡2.5kg赠送1kg超能洗衣液</a>
@@ -6127,7 +6133,7 @@
 			<div class="grid-lmr">
 				<div class="col-left">
 					<a href="#">
-						<img src="img/3188146e6ae02c80_-1x-1.jpg" />
+						<img src="/thinkphp3.2.3/Public/img/index/43a6a427c4b5965a_-1x-1.jpg" />
 					</a>
 				</div>
 				<div class="col-main">
@@ -6135,7 +6141,7 @@
 						<ul>
 							<li>
 								<a href="#" class="prod-img">
-									<img src="img/11.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/2/1.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 50cm*55cm*0.01mm*10卷 E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 </a>
@@ -6146,7 +6152,7 @@
 							</li>
 							<li>
 								<a href="#" class="prod-img">
-									<img src="img/11.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/2/2.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 50cm*55cm*0.01mm*10卷 E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 </a>
@@ -6157,7 +6163,7 @@
 							</li>
 							<li>
 								<a href="#" class="prod-img">
-									<img src="img/11.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/2/3.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 50cm*55cm*0.01mm*10卷 E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 </a>
@@ -6168,7 +6174,7 @@
 							</li>
 							<li>
 								<a href="#" class="prod-img">
-									<img src="img/11.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/2/4.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 50cm*55cm*0.01mm*10卷 E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 </a>
@@ -6185,7 +6191,7 @@
 						<ul>
 							<li class="i1">
 								<a href="#" class="prod-img">
-									<img src="img/r2-1.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/2/5.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">超能洗衣液植萃低泡2.5kg赠送1kg超能洗衣液</a>
@@ -6196,7 +6202,7 @@
 							</li>
 							<li class="i2">
 								<a href="#" class="prod-img">
-									<img src="img/r2-1.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/2/6.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">超能洗衣液植萃低泡2.5kg赠送1kg超能洗衣液</a>
@@ -6233,7 +6239,7 @@
 			<div class="grid-lmr">
 				<div class="col-left">
 					<a href="#">
-						<img src="img/3188146e6ae02c80_-1x-1.jpg" />
+						<img src="/thinkphp3.2.3/Public/img/index/6b529f22c8714d91_-1x-1.jpg" />
 					</a>
 				</div>
 				<div class="col-main">
@@ -6241,7 +6247,7 @@
 						<ul>
 							<li>
 								<a href="#" class="prod-img">
-									<img src="img/11.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/1/1.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 50cm*55cm*0.01mm*10卷 E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 </a>
@@ -6252,7 +6258,7 @@
 							</li>
 							<li>
 								<a href="#" class="prod-img">
-									<img src="img/11.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/1/2.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 50cm*55cm*0.01mm*10卷 E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 </a>
@@ -6263,7 +6269,7 @@
 							</li>
 							<li>
 								<a href="#" class="prod-img">
-									<img src="img/11.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/1/3.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 50cm*55cm*0.01mm*10卷 E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 </a>
@@ -6274,7 +6280,7 @@
 							</li>
 							<li>
 								<a href="#" class="prod-img">
-									<img src="img/11.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/1/4.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 50cm*55cm*0.01mm*10卷 E洁 垃圾袋 中号清洁袋 自动收口 家用厨房抽绳15个/卷 </a>
@@ -6291,7 +6297,7 @@
 						<ul>
 							<li class="i1">
 								<a href="#" class="prod-img">
-									<img src="img/r2-1.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/1/5.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">超能洗衣液植萃低泡2.5kg赠送1kg超能洗衣液</a>
@@ -6302,7 +6308,7 @@
 							</li>
 							<li class="i2">
 								<a href="#" class="prod-img">
-									<img src="img/r2-1.jpg" />
+									<img src="/thinkphp3.2.3/Public/img/index/1/6.jpg" />
 								</a>
 								<p class="prod-name">
 									<a href="#">超能洗衣液植萃低泡2.5kg赠送1kg超能洗衣液</a>
@@ -6320,7 +6326,7 @@
 		<!--top-line-->
 		<div class="topline">
 			<a href="#">
-				<img src="img/e58147044e43b216_-1x-1.jpg" alt="" />
+				<img src="/thinkphp3.2.3/Public/img/e58147044e43b216_-1x-1.jpg" alt="" />
 			</a>
 		</div>
 		<!--top-line-->

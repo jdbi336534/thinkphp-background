@@ -4,15 +4,16 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
-		<link href="/thinkphp3.2.3/Public/img/favicon.ico" rel="icon" type="image/x-icon" />
-		<link rel="stylesheet" href="/thinkphp3.2.3/Public/css/reset.css" />
-		<link rel="stylesheet" href="/thinkphp3.2.3/Public/css/style.css" />
-		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/jquery-3.1.0.min.js"></script>
+		<link href="/background/Public/img/favicon.ico" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" href="/background/Public/css/reset.css" />
+		<link rel="stylesheet" href="/background/Public/css/style.css" />
+		<script type="text/javascript" src="/background/Public/js/jquery-3.1.0.min.js"></script>
 		<!--[if IE]>
-		<script src="/thinkphp3.2.3/Public/js/jquery-1.10.1.min.js"></script>
+		<script src="/background/Public/js/jquery-1.10.1.min.js"></script>
 	    <![endif]-->
-		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/login.js"></script>
-		<script type="text/javascript" src="/thinkphp3.2.3/Public/js/globle.js"></script>
+	     <script type="text/javascript" src="js/jQueryRotate.2.2.js"></script>
+		<script type="text/javascript" src="/background/Public/js/login.js"></script>
+		<script type="text/javascript" src="/background/Public/js/globle.js"></script>
 	</head>
 
 	<body class="w1280">
@@ -25,7 +26,7 @@
 						</li>
 					</ul>
 					<ul class="fr userinfo">
-						<li class="welcome "><a href="#"><?php echo (session('name')); ?></a> 欢迎来到邮乐网！</li>
+						<li class="welcome "><a href="#"><?php echo (session('name')); ?></a> 您好，欢迎来到邮乐网！</li>
 						<li class="login">
 							<a href="/thinkphp3.2.3/index.php/Home/Index/openlogin">[请登录] </a>
 							<a href="<?php echo U('Index/openurl');?>" target="_blank">[免费注册]</a>
@@ -329,7 +330,7 @@
 			<div class="login-box">
 				<div class="login-form">
 					<span class="box-title">登录</span>
-					<form action="/thinkphp3.2.3/index.php/Home/Index/login" method="post">
+					<form action="/background/index.php/Home/Index/login" method="post">
 
 						<div class="email-wrap">
 							<i class="email-icon"></i>
@@ -350,12 +351,12 @@
 							<span class="forgot"><a href="https://my.ule.com/usr/forgetUserInfor.do" target="_blank" class="blueLink">忘记密码?</a></span>
 						</div>
 						<input type="submit" value="立即登录" class="login-btn">
-						<span class="no-account">没有帐号？<a id="reg" href="#">立即注册</a></span>
+						<span class="no-account">没有帐号？<a id="reg" href="<?php echo U('Index/openurl');?>">立即注册</a></span>
 					</form>
 					<div class="coop-site" id="openId">
 
 						<span class="txt">您也可以使用以下合作网站帐号或<a href="http://my.ule.com/usr/bindHqUsr.do" class="yaoqingma">邀请码登录</a></span>
-						<a href="#" class="pic-link1 sina" onclick="openWind(&quot;http://my.ule.com/usr/ThirdpartyLogin.do?thirdtype=sina&quot;)"></a>
+						<a href="#" class="pic-link1 sina" ></a>
 						<a href="http://my.ule.com/usr/ThirdpartyLogin.do?thirdtype=qq" class="pic-link2"></a>
 						<a href="#" class="pic-link3 tom"></a>
 						<a href="#" class="pic-link4 ziyouyizu"></a>
